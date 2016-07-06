@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# Ranorex Studio 6.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADC_AutoTesting", "ADC_AutoTesting\ADC_AutoTesting.csproj", "{FBD33356-E2E3-4325-BD5D-B5A2208E5FF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBD33356-E2E3-4325-BD5D-B5A2208E5FF1}.Debug|x86.Build.0 = Debug|x86
+		{FBD33356-E2E3-4325-BD5D-B5A2208E5FF1}.Debug|x86.ActiveCfg = Debug|x86
+		{FBD33356-E2E3-4325-BD5D-B5A2208E5FF1}.Release|x86.Build.0 = Release|x86
+		{FBD33356-E2E3-4325-BD5D-B5A2208E5FF1}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

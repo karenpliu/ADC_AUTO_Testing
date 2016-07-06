@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="a2821266-72c0-42fd-8eae-3a6d6baa4f3e"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="ADC_AutoTesting"/>
+	<variables/>
+	<recorditems/>
+	<repository
+	name="ADC_AutoTestingRepository"
+	id="d753a9ff-48fe-478d-bbc7-9225c3229043"
+	rxversion="6.0"
+	relativepath="ADC_AutoTestingRepository.rxrep">
+		<codegen
+		classname="ADC_AutoTestingRepository"
+		namespace="ADC_AutoTesting"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="95f67aba-6c58-4884-bb87-3897faf7a665"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="ADC_AutoTestingRepository"
+id="d753a9ff-48fe-478d-bbc7-9225c3229043"
+rxversion="6.0">
+  <codegen
+  classname="ADC_AutoTestingRepository"
+  namespace="ADC_AutoTesting"/>
+  <rootfolder
+  name="Root"
+  id="95f67aba-6c58-4884-bb87-3897faf7a665"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>
