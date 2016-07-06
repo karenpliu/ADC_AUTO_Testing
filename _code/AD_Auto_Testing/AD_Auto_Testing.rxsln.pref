@@ -1,0 +1,9 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution AD_Auto_Testing[AD_Auto_Testing[]]]&#xD;&#xA;Solution AD_Auto_Testing\AD_Auto_Testing\Program.cs&#xD;&#xA;Solution AD_Auto_Testing" />
+  <StartupProject value="{08631E24-176E-457F-A167-4680DCA4A69D}" />
+</Properties>

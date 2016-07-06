@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="AD_Auto_TestingRepository"
+id="4809b858-3a28-46e4-8577-042389e392f6"
+rxversion="6.0">
+  <codegen
+  classname="AD_Auto_TestingRepository"
+  namespace="AD_Auto_Testing"/>
+  <rootfolder
+  name="Root"
+  id="209b5892-73e4-4a1c-a799-5efc0ce843bc"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

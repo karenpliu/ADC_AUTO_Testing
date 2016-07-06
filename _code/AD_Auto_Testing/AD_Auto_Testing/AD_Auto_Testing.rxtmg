@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="6.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="AD_Auto_Testing"
+      id="ce0f6210-124f-41d6-8968-826aad5d77cd"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="AD_Auto_Testing"
+      id="ce0f6210-124f-41d6-8968-826aad5d77cd"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

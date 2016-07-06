@@ -1,0 +1,12 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Program.cs" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="AD_Auto_Testing.rxtst" />
+    <Element value="Recording1.rxrec" />
+    <Element value="Program.cs" />
+  </Array>
+  <Properties name="projectSavedData" />
+</Properties>
