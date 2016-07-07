@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2e410a4d6883755c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="kbricker"
+		host="WIN-22CFK17G44B"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="2348x1342"
+		timestamp="7/7/2016 10:20:40 AM"
+		timestampiso="2016-07-07T17:20:40"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="33ms"
+			durationms="33"
+			type="test suite"
+			rid="6f119e5bf2719eb"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="ADC_AUTO_Testing"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="15ms"
+				durationms="15"
+				type="test case"
+				rid="2e09f52ab1816b2"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="65a76ae6-f4df-4ee0-978f-0f691fb4b751"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="5ms"
+					durationms="5"
+					type="test module"
+					rid="2ffdedf77ef08a4b"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="Recording1"
+					moduleid="fcdbbd01-2f76-4cc7-adf4-5eb0a62b9eb5"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

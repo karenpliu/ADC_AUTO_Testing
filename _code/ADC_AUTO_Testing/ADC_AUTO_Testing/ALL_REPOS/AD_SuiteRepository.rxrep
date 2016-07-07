@@ -1,0 +1,1016 @@
+﻿<repository
+name="AD_SuiteRepository"
+id="d1e58214-55e4-40c0-9556-4b696f0f251b"
+rxversion="6.0">
+	<codegen
+	classname="AD_SuiteRepository"
+	namespace="ADC_AUTO_Testing.ALL_REPOS"/>
+	<rootfolder
+	name="Root"
+	id="d189d0d0-f16a-4e7c-942b-cd6e8e0973a1"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="OneLogin"
+		id="097c1a52-c49b-44f3-80da-20e25727a473"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<folder
+			name="LoginPage"
+			id="fd3d7222-ef0a-4065-bffe-dc24a29994fa"
+			searchtimeout="30000ms"
+			capname="webdocument"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="UserPassword"
+				id="e5e3a86b-b6ad-42df-8cd3-1eb12974861d"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="229f5988-7715-4ee7-9f6e-4370a1afcbcb">
+					/dom[@domain~'onelogin.com']//input[#'user_password']
+				</item>
+				<item
+				name="UserEmail"
+				id="738a3b33-8ddf-4773-a920-672598ab5dd8"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="b8a7fc47-ea73-48ac-8a5e-5bde048ca310">
+					/dom[@domain~'onelogin.com']//input[#'user_email']
+				</item>
+				<item
+				name="Logo"
+				id="cfd107df-42ed-4ed0-aa82-7aa695f16461"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="292d93d9-0a0c-468e-b623-b422c946d4dd">
+					/dom[@domain~'onelogin.com']//img[#'logo']
+				</item>
+				<item
+				name="UserSubmit"
+				id="96070c2b-931f-4208-8012-b13a859a8f01"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="f9ab89de-ae20-493e-ba23-c687d946f841">
+					/dom[@domain~'onelogin.com']//input[#'user_submit']
+				</item>
+				<item
+				name="ForgotPassword"
+				id="63ad9b24-f73b-4df7-92da-ed23ba08ad8b"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="2bbeb2e6-a60b-47c7-b2df-ce8e566a3708">
+					/dom[@domain~'onelogin.com']//div[#'onelogin_login']/?/?/a[@innertext='Forgot password']
+				</item>
+				<item
+				name="Help"
+				id="1ce21419-cab1-4fcb-b414-2c902eabff81"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="8df8a6a8-c508-4af9-a7ce-96dabc095f45">
+					/dom[@domain~'onelogin.com']//div[#'onelogin_login']/?/?/a[@innertext='Help']
+				</item>
+				<item
+				name="Users"
+				id="acf6977c-b0ed-441d-8d99-b9b19ce81675"
+				searchtimeout="30000ms"
+				capname="atag"
+				refpath="/dom[@domain='boris12.onelogin.com']//li[#'mainnav-users-dropdown']/a[@innertext='Users']"
+				addcaps="unknown,webelement,atag"
+				refimgid="2412c8fa-895f-4992-afb7-47ef0f236184">
+					/dom[@domain~'onelogin.com']//li[#'mainnav-users-dropdown']/a[@innertext='Users']
+				</item>
+				<item
+				name="BrandImage"
+				id="38418c7d-ffe2-4175-9920-6ea5e2f7a2e4"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="623817b3-579a-445b-a0e0-c73af275654f">
+					/dom[@domain~'onelogin.com']//a[#'logo']/img[]
+				</item>
+				<item
+				name="SomeBTag"
+				id="5baff692-4226-496f-a7ed-50648085d0e9"
+				searchtimeout="30000ms"
+				capname="btag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//div[#'s2id_directory_authentication_attribute']/a/span[2]/b"
+				addcaps="unknown,webelement,btag"
+				refimgid="0a6e1f7e-54b6-4141-90f0-3d99d3b84eaf">
+					/dom[@domain~'onelogin.com']//div[#'s2id_directory_authentication_attribute']//b
+				</item>
+				<item
+				name="UserPrincipalName"
+				id="2bbd74bd-975a-449a-ae81-d764029a173e"
+				searchtimeout="30000ms"
+				capname="divtag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//div[#'select2-drop']/ul/li[2]/div[@innertext='userPrincipalName']"
+				addcaps="unknown,webelement,divtag"
+				refimgid="1891a983-cb8e-484d-a5bf-d79bae238955">
+					/dom[@domain~'onelogin.com']//div[#'select2-drop']//div[@innertext='userPrincipalName']
+				</item>
+				<item
+				name="Email"
+				id="1645e145-a20d-40dc-bdde-0028cfc3a029"
+				searchtimeout="30000ms"
+				capname="divtag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//div[#'select2-drop']/ul/li[1]/div[@innertext='Email']"
+				addcaps="unknown,webelement,divtag"
+				refimgid="bdf9e584-2d3f-4a3c-9982-4730e85720c0">
+					/dom[@domain~'onelogin.com']//div[#'select2-drop']//div[@innertext='Email']
+				</item>
+				<item
+				name="SwitchFaOlMinWidth12PointerHover"
+				id="2e10aee7-03a5-470b-9746-af8905c50985"
+				searchtimeout="30000ms"
+				capname="itag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//ul[#'dn-selection']/li/i"
+				addcaps="unknown,webelement,itag"
+				refimgid="f65323d5-7894-46f3-85bc-1dea3b95dce9">
+					/dom[@domain~'onelogin.com']//ul[#'dn-selection']/?/?/i
+				</item>
+				<item
+				name="InputTag_OU_BG1"
+				id="8db8e7ac-cd10-4173-8f74-e69b5e603f59"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//input[#'3749977']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="1d8ac85e-5634-4e77-8716-f354c4e47fed">
+					/dom[@domain~'onelogin.com']//input[#'3749977']
+				</item>
+				<item
+				name="ICheck3749977"
+				id="9b28031e-3bc0-4b9b-81c5-f3cb174b3ea5"
+				searchtimeout="30000ms"
+				capname="instag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//ins[#'iCheck-3749977']"
+				addcaps="unknown,webelement,instag"
+				refimgid="5977f520-0560-4d83-8cf4-f4fd36888069">
+					/dom[@domain~'onelogin.com']//ins[#'iCheck-3749977']
+				</item>
+				<item
+				name="SAMAccountName"
+				id="72501bf9-78c5-4d99-b95a-52c471866d76"
+				searchtimeout="30000ms"
+				capname="divtag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//div[#'select2-drop']/ul/li[3]/div[@innertext='sAMAccountName']"
+				addcaps="unknown,webelement,divtag"
+				refimgid="71f6d488-815f-4fc4-bcaf-a87acc4c8a08">
+					/dom[@domain~'onelogin.com']//div[#'select2-drop']//div[@innertext='sAMAccountName']
+				</item>
+				<item
+				name="ICheckHelper"
+				id="5c3b78f5-ef67-4569-af48-8fae7ec673b8"
+				searchtimeout="30000ms"
+				capname="instag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//ul[#'dn-selection']/li/ul/li[@innertext='OU_BG1']/div/ins"
+				addcaps="unknown,webelement,instag"
+				refimgid="94b95845-5bbd-491c-84bb-a3fb625be11d">
+					/dom[@domain~'onelogin.com']//ul[#'dn-selection']/?/?/ul/li[@innertext='OU_BG1']/div/ins
+				</item>
+				<item
+				name="MoreActions"
+				id="23a12633-77ea-4eb4-93c9-f2c2f4299ee0"
+				searchtimeout="30000ms"
+				capname="atag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//a[#'more-actions']"
+				addcaps="unknown,webelement,atag"
+				refimgid="cc905cb6-0e05-4fda-938f-ebf8155f50bb">
+					/dom[@domain~'onelogin.com']//a[#'more-actions']
+				</item>
+				<item
+				name="SynchronizeUsers"
+				id="d0c16263-c105-4688-b5dc-c05b86fbbe01"
+				searchtimeout="30000ms"
+				capname="atag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//li[#'sync_users_button']/a[@innertext='Synchronize Users']"
+				addcaps="unknown,webelement,atag"
+				refimgid="cf13b03c-9695-4505-b517-f3c8742ca023">
+					/dom[@domain~'onelogin.com']//li[#'sync_users_button']/a[@innertext='Synchronize Users']
+				</item>
+				<item
+				name="TheConnectorIsSynchronizingUsers"
+				id="e908a6fd-3756-4b70-a705-7fb01f6dcf12"
+				searchtimeout="30000ms"
+				capname="ptag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//div[#'popup_content']/div[2]/div/p[@innertext~'^The\ connector\ is\ synchron']"
+				addcaps="unknown,webelement,ptag"
+				refimgid="fdd72999-20bc-4d0a-9d9d-a8333edf1d42">
+					/dom[@domain~'onelogin.com']//div[#'popup_content']//p[@innertext~'^The\ connector\ is\ synchron']
+				</item>
+				<item
+				name="Close"
+				id="f2dc0fde-cd77-4d0c-be57-2d72e7a152f9"
+				searchtimeout="30000ms"
+				capname="divtag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//div[#'popup_content']/div[3]/div[@innertext='Close']"
+				addcaps="unknown,webelement,divtag"
+				refimgid="729973f3-1b83-450f-b086-6c01e9561e4b">
+					/dom[@domain~'onelogin.com']//div[#'popup_content']/?/?/div[@innertext='Close']
+				</item>
+				<item
+				name="SelectTheOrganizationalUnitsYouWoul"
+				id="b1984622-63de-44c6-bf20-825c40c9e36d"
+				searchtimeout="30000ms"
+				capname="legendtag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//div[#'ou_selection']/fieldset/legend[@innertext='Select the organizational units you would like to import into OneLogin.']"
+				addcaps="unknown,webelement,legendtag"
+				refimgid="922d133d-d385-4272-8278-d50fb2fd797f">
+					/dom[@domain~'onelogin.com']//div[#'ou_selection']/?/?/legend[@innertext~'^Select\ the\ organizational']
+				</item>
+				<item
+				name="CheckboxUsers"
+				id="b7664756-9ce1-4ef8-a51e-0bf4a9d7abed"
+				searchtimeout="30000ms"
+				capname="instag"
+				comment="PROPER UNIQUE PATH"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="b3ef20de-8852-445a-9697-920c155694d7">
+					/dom[@domain~'onelogin.com']//ul[#'dn-selection']//ul/li[@innertext='Users']/div[]//ins[@id~'iCheck-']
+				</item>
+				<item
+				name="InputTagUsers"
+				id="b7ba154d-89e1-44c7-a184-a111700e7dcd"
+				searchtimeout="30000ms"
+				capname="inputtag">
+					/dom[@domain~'onelogin.com']//ul[#'dn-selection']/?/?/ul/li[@innertext='Users']/div/input[]
+				</item>
+				<item
+				name="InputTagtestOU1"
+				id="0b226a8c-14e7-4d1b-9b92-9723b6175c7f"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="9fb48d41-86cc-4127-84d0-64fabb71d6e7">
+					/dom[@domain~'onelogin.com']//ul[#'dn-selection']/?/?/ul/li[@innertext='testOU1']/div/input[]
+				</item>
+				<item
+				name="CheckboxtestOU1"
+				id="f67ac398-3229-47a2-947a-1d09f39cb377"
+				searchtimeout="30000ms"
+				capname="instag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//ins[#'iCheck-3773287']"
+				addcaps="unknown,webelement,instag"
+				refimgid="b36c4305-cb26-4a28-b7e0-5806ab865725">
+					/dom[@domain~'onelogin.com']//ins[#'iCheck-3773287']
+				</item>
+				<item
+				name="TdTag2"
+				id="c30d3220-7c59-41a1-abd9-d84e28e69204"
+				searchtimeout="30000ms"
+				capname="tdtag"
+				addcaps="unknown,webelement,tdtag"
+				refimgid="57a32049-d4fd-4676-ab2c-db75dee1c10b">
+					/dom[@domain~'onelogin.com']//div[#'main-content']/div/div[]//table/tbody/tr[2]/td[@innertext=$var_Max_User_Count]
+				</item>
+				<item
+				name="DirectoryUseMappings"
+				id="bf273215-7986-4d01-a1c1-ce19fc146679"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//input[#'directory_use_mappings']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="f9d47c05-45b9-4b4b-86d1-2d3ccdb7d856">
+					/dom[@domain~'onelogin.com']//input[#'directory_use_mappings']
+				</item>
+				<item
+				name="ICheckHelper1"
+				id="a721f5e0-69b1-4e11-afb0-47dc0a75f4f6"
+				searchtimeout="30000ms"
+				capname="instag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//div[#'advanced_tab']/fieldset/div/div[2]/div/div/label/div/ins"
+				addcaps="unknown,webelement,instag"
+				refimgid="1b08f6f6-c24b-494d-8781-c69cdc5cf126">
+					/dom[@domain~'onelogin.com']//div[#'advanced_tab']/fieldset/div/div[2]/?/?/div/?/?/div/ins
+				</item>
+				<item
+				name="DirectoryStageUsers"
+				id="83d54d14-9004-4dc4-a0bc-df387ad2a836"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//input[#'directory_stage_users']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="663c6a50-9772-4ea5-92a1-4a8c84451e5f">
+					/dom[@domain~'onelogin.com']//input[#'directory_stage_users']
+				</item>
+				<item
+				name="ICheckHelper2"
+				id="8a198321-a7a5-4ac6-a6ef-2afce67dcfc8"
+				searchtimeout="30000ms"
+				capname="instag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//div[#'advanced_tab']/fieldset/div/div[3]/div[2]/div/label/div/ins"
+				addcaps="unknown,webelement,instag"
+				refimgid="e186d69e-1114-4c92-938b-30d415e79d51">
+					/dom[@domain~'onelogin.com']//div[#'advanced_tab']/fieldset/div/div[3]/?/?/div/?/?/div/ins
+				</item>
+				<item
+				name="SomeBTag1"
+				id="2314f79a-e0f2-4b66-ac9a-5bd36c9e5fa5"
+				searchtimeout="30000ms"
+				capname="btag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//div[#'s2id_directory_deleted_users_action']/a/span[2]/b"
+				addcaps="unknown,webelement,btag"
+				refimgid="882ae322-7167-4109-826a-7abe0d3b885f">
+					/dom[@domain~'onelogin.com']//div[#'s2id_directory_deleted_users_action']//b
+				</item>
+				<item
+				name="AreSuspendedInOneLogin"
+				id="8bf58ca9-27ae-41af-85c6-1cc950a2affe"
+				searchtimeout="30000ms"
+				capname="divtag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//div[#'select2-drop']/ul/li[@title='are suspended in OneLogin']/div[@innertext='are suspended in OneLogin']"
+				addcaps="unknown,webelement,divtag"
+				refimgid="2eb12008-de46-4268-81d0-a60befc1f905">
+					/dom[@domain~'onelogin.com']//div[#'select2-drop']//div[@innertext='are suspended in OneLogin']
+				</item>
+				<item
+				name="AreDeletedInOneLogin"
+				id="32c538aa-993e-489e-9d53-e582a20d7815"
+				searchtimeout="30000ms"
+				capname="divtag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//div[#'select2-drop']/ul/li[@title='are deleted in OneLogin']/div[@innertext='are deleted in OneLogin']"
+				addcaps="unknown,webelement,divtag"
+				refimgid="2fa9e530-7527-4a9a-ae28-b94b3680c5d2">
+					/dom[@domain~'onelogin.com']//div[#'select2-drop']//div[@innertext='are deleted in OneLogin']
+				</item>
+				<item
+				name="AreUnaffectedInOneLogin"
+				id="53a4fa2a-a308-4d90-906b-d82bd5016c19"
+				searchtimeout="30000ms"
+				capname="divtag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//div[#'select2-drop']/ul/li[@title~'^are\ unaffected\ in\ OneLogi']/div[@innertext~'^are\ unaffected\ in\ OneLogi']"
+				addcaps="unknown,webelement,divtag"
+				refimgid="e395443d-6104-485f-a60a-3bee4cedd1a9">
+					/dom[@domain~'onelogin.com']//div[#'select2-drop']//div[@innertext~'^are\ unaffected\ in\ OneLogi']
+				</item>
+				<item
+				name="DirectorySyncDisabledUsers"
+				id="b29b94f7-c825-45b5-bb29-71e9f45738b6"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//input[#'directory_sync_disabled_users']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="60bfc4e8-33a9-4845-8867-fb8d08d51f47">
+					/dom[@domain~'onelogin.com']//input[#'directory_sync_disabled_users']
+				</item>
+				<item
+				name="ICheckHelper3"
+				id="7173b754-ab17-46b7-a271-b76e4c13c40b"
+				searchtimeout="30000ms"
+				capname="instag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//div[#'advanced_tab']/fieldset/div/div[4]/div/label/div/ins"
+				addcaps="unknown,webelement,instag"
+				refimgid="31a6ed8b-f80a-4614-bb4c-7a5e1506a15a">
+					/dom[@domain~'onelogin.com']//div[#'advanced_tab']/fieldset/div/div[4]/?/?/label[@innertext~'^Synchronize\ disabled\ user']/?/?/ins
+				</item>
+				<item
+				name="DirectorySmartPasswordEnabled"
+				id="43277dc1-8c17-4899-8da8-7aa426128f1a"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//input[#'directory_smart_password_enabled']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="db716882-b933-44b1-b36c-3aaf3c45daba">
+					/dom[@domain~'onelogin.com']//input[#'directory_smart_password_enabled']
+				</item>
+				<item
+				name="ICheckHelper4"
+				id="773c7236-a007-4020-9a5c-23822f4bc26c"
+				searchtimeout="30000ms"
+				capname="instag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//div[#'advanced_tab']/fieldset/div/div[6]/div/label/div/ins"
+				addcaps="unknown,webelement,instag"
+				refimgid="a75ac176-4726-4e58-a298-d0b3118f191b">
+					/dom[@domain~'onelogin.com']//div[#'advanced_tab']/fieldset/div/div[6]/?/?/label[@innertext='Enable Smart Password']/?/?/ins
+				</item>
+				<item
+				name="DirectoryAutoSyncFailover"
+				id="559860b5-4998-471d-8e48-b9e39ae6904b"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//input[#'directory_auto_sync_failover']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="7167b4b1-e1f3-42ec-97d4-78b763b4b1c4">
+					/dom[@domain~'onelogin.com']//input[#'directory_auto_sync_failover']
+				</item>
+				<item
+				name="ICheckHelper5"
+				id="99423e15-c0e6-45b2-8d81-c7e37f43fbc3"
+				searchtimeout="30000ms"
+				capname="instag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//div[#'advanced_tab']/fieldset/div/div[7]/div/label/div/ins"
+				addcaps="unknown,webelement,instag"
+				refimgid="a2e98d69-8968-40ec-af46-d0b1ad3608cf">
+					/dom[@domain~'onelogin.com']//div[#'advanced_tab']/fieldset/div/div[7]/?/?/label[@innertext~'^Enable\ auto-switch\ sync\ f']/?/?/ins
+				</item>
+				<item
+				name="DirectoryProvisioningEnabled"
+				id="09722397-77ad-451b-8b92-62ece79117b8"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//input[#'directory_provisioning_enabled']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="1f51eb10-d492-4024-a53e-09db650adcc1">
+					/dom[@domain~'onelogin.com']//input[#'directory_provisioning_enabled']
+				</item>
+				<item
+				name="ICheckHelper6"
+				id="9be27270-79e7-4fa5-863e-011fb19b53ee"
+				searchtimeout="30000ms"
+				capname="instag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//div[#'advanced_tab']/fieldset/div/div[9]/div[2]/label/div/ins"
+				addcaps="unknown,webelement,instag"
+				refimgid="dba940ef-99bb-4a14-8cc1-e4fe0dc11121">
+					/dom[@domain~'onelogin.com']//div[#'advanced_tab']/fieldset/div/div[9]/?/?/label[@innertext~'^Provisioning\ enabled\.\ \ Us']/?/?/ins
+				</item>
+				<item
+				name="ProvisioningEnabledUseOutboundMapp"
+				id="863508ae-e5c5-4a48-be2e-6ecf12142529"
+				searchtimeout="30000ms"
+				capname="labeltag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//div[#'advanced_tab']/fieldset/div/div[9]/div[2]/label[@innertext~'^Provisioning\ enabled\.\ \ Us']"
+				addcaps="unknown,webelement,labeltag"
+				refimgid="05461fe8-74fc-4d92-a39c-e6178c643a79">
+					/dom[@domain~'onelogin.com']//div[#'advanced_tab']/fieldset/div/div[9]/?/?/label[@innertext~'^Provisioning\ enabled\.\ \ Us']
+				</item>
+				<basepath>
+					/dom[@domain~'onelogin.com']
+				</basepath>
+			</folder>
+			<folder
+			name="UsersPage"
+			id="ace368a2-59d8-4ead-b09b-a129f06ac26f"
+			searchtimeout="30000ms"
+			capname="webdocument"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="FaFaUser"
+				id="ea996514-5ed1-458c-bd67-bd05ba72455c"
+				searchtimeout="30000ms"
+				capname="itag"
+				addcaps="unknown,webelement,itag"
+				refimgid="b8713ca9-aefd-4a78-8c18-bb8419741198">
+					/dom[@domain~'onelogin.com']//a[#'mac-login-admin-nudge']/i
+				</item>
+				<item
+				name="MacLoginAdminNudge"
+				id="cab867ad-7b9a-488a-bf7c-3f857d38144b"
+				searchtimeout="10000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="33e9f71b-c068-48b7-92f0-631365691a0e">
+					/dom[@domain~'onelogin.com']//a[#'mac-login-admin-nudge']
+				</item>
+				<item
+				name="LogOut"
+				id="f358681e-bb50-4748-836d-9f584dddb2ae"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="88558704-e6c0-4182-9fdd-29fbe4ea90e6">
+					/dom[@domain~'onelogin.com']//nav[#'navbar']/div[2]/ul[2]/?/?/ul/?/?/a[@innertext='Log Out']
+				</item>
+				<basepath>
+					/dom[@domain~'onelogin.com']
+				</basepath>
+			</folder>
+			<folder
+			name="DirectoriesPage"
+			id="f98de221-02e7-4dc8-b196-dab66ebededa"
+			searchtimeout="30000ms"
+			capname="webdocument"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="NewDirectory"
+				id="c0134ffd-6213-46ee-b20d-5d11bf9d3d8c"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="62933802-c0ed-4481-98a3-3c56f9315aa1">
+					/dom[@domain~'onelogin.com']//div[#'main-content']/div/div[1]/div[2]/?/?/a[@innertext='New Directory']
+				</item>
+				<item
+				name="Connected"
+				id="2ec122eb-8346-4ba1-a2eb-28d8ca652877"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="1bb60042-9e12-469c-97aa-2b748df78275">
+					/dom[@domain~'onelogin.com']//div[#'main-content']/div//table//tr/td[]/span[@innertext='Connected']
+				</item>
+				<item
+				name="MinUserCount_AD1"
+				id="45c9c2a9-4398-4ce1-8672-129ed47cb3dd"
+				searchtimeout="30000ms"
+				capname="tdtag"
+				addcaps="unknown,webelement,tdtag"
+				refimgid="b792a152-f921-4f53-a83f-e2ed0e7d50dd">
+					/dom[@domain~'onelogin.com']//div[#'main-content']/div//table//tr[1]/td[@innertext=$var_Min_User_Count]
+				</item>
+				<item
+				name="ActiveDirectory"
+				id="ef494f29-0f1d-4dac-8102-c68d0c136bca"
+				searchtimeout="30000ms"
+				capname="tdtag"
+				comment="VAR_AD_NAME"
+				addcaps="unknown,webelement,tdtag"
+				refimgid="6d77c52d-564b-4df4-8536-274400703fc3">
+					/dom[@domain~'onelogin.com']//div[#'main-content']/div//table//tr/td[@innertext=$var_AD_Name]
+				</item>
+				<item
+				name="MinUserCount_AD2"
+				id="e2ddb57e-163a-4624-b45a-e5ffb99a2efa"
+				searchtimeout="30000ms"
+				capname="tdtag"
+				addcaps="unknown,webelement,tdtag"
+				refimgid="4ae4659f-090f-4d81-8326-76063132e8e0">
+					/dom[@domain~'onelogin.com']//div[#'main-content']/div//table//tr[2]/td[@innertext=$var_Min_User2]
+				</item>
+				<basepath>
+					/dom[@domain~'onelogin.com']
+				</basepath>
+			</folder>
+			<folder
+			name="MainNavBar"
+			id="f5c7ac80-ca65-487d-8680-f67190751f39"
+			searchtimeout="30000ms"
+			capname="webdocument"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="SubMenu_Directories"
+				id="b4bfc0bc-8e0c-4e30-a1f3-6a2bc747031f"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="b97dbe42-b76b-4693-ab18-79bf8f4b07c0">
+					/dom[@domain~'onelogin.com']//li[#'mainnav-users-dropdown']//a[@innertext='Directories']
+				</item>
+				<basepath>
+					/dom[@domain~'onelogin.com']
+				</basepath>
+			</folder>
+			<folder
+			name="ActiveDirectoryPage"
+			id="2c7923ba-1318-4428-81f8-4f2b044214b6"
+			searchtimeout="30000ms"
+			capname="webdocument"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="ActiveDirectory"
+				id="817d5238-b74c-41af-8905-b89f0d04dbaf"
+				searchtimeout="30000ms"
+				capname="h2tag"
+				comment="VAR_AD_NAME"
+				addcaps="unknown,webelement,h2tag"
+				refimgid="40f3f9ce-d138-4891-96b6-fd375c37e973">
+					/dom[@domain~'onelogin.com']//form[@id~'^edit_directory_']//h2[@innertext=$var_AD_Name]
+				</item>
+				<folder
+				name="Tabs"
+				id="4a8982bf-1777-4e99-a898-f13ce27869a7"
+				searchtimeout="30000ms"
+				capname="webdocument"
+				isrooted="True"
+				usecache="False">
+					<item
+					name="DirectoryAttributes"
+					id="ecfbfe06-38ca-4a73-bb28-a895a03aa77c"
+					searchtimeout="30000ms"
+					capname="spantag"
+					refpath="/dom[@domain='admin.us.onelogin.com']//ul[#'tabs']/li[3]/a/span[@innertext='Directory Attributes']"
+					addcaps="unknown,webelement,spantag"
+					refimgid="09e01272-e32c-4329-afc7-094bd56dba16">
+						/dom[@domain~'onelogin.com']//ul[#'tabs']//span[@innertext='Directory Attributes']
+					</item>
+					<item
+					name="Advanced"
+					id="da643b82-b939-4c6c-abc7-df78630bf011"
+					searchtimeout="30000ms"
+					capname="spantag"
+					refpath="/dom[@domain='admin.us.onelogin.com']//ul[#'tabs']/li[4]/a/span[@innertext='Advanced']"
+					addcaps="unknown,webelement,spantag"
+					refimgid="afb139df-81e5-40ed-90bc-3ddf0f7c7b87">
+						/dom[@domain~'onelogin.com']//ul[#'tabs']//span[@innertext='Advanced']
+					</item>
+					<item
+					name="OuSelectionLink"
+					id="6a306669-99b0-4d8d-ba93-6d10bb43a552"
+					searchtimeout="30000ms"
+					capname="atag"
+					refpath="/dom[@domain='admin.us.onelogin.com']//a[#'ou_selection_link']"
+					addcaps="unknown,webelement,atag"
+					refimgid="9e75762c-558f-4118-8e8d-d3fa220f9957">
+						/dom[@domain~'onelogin.com']//a[#'ou_selection_link']
+					</item>
+					<item
+					name="ConnectorInstances"
+					id="a19c696a-87ba-462e-b013-dc1d91d290ed"
+					searchtimeout="30000ms"
+					capname="spantag"
+					refpath="/dom[@domain='admin.us.onelogin.com']//ul[#'tabs']/li[1]/a/span[@innertext='Connector Instances']"
+					addcaps="unknown,webelement,spantag"
+					refimgid="f1e86c03-ddd3-4465-953e-e2d8760bac78">
+						/dom[@domain~'onelogin.com']//ul[#'tabs']//span[@innertext='Connector Instances']
+					</item>
+					<basepath>
+						/dom[@domain~'onelogin.com']
+					</basepath>
+				</folder>
+				<basepath>
+					/dom[@domain~'onelogin.com']
+				</basepath>
+			</folder>
+			<folder
+			name="GlobalObjects"
+			id="5cba403c-538e-4db8-9a5c-f07f0549b489"
+			searchtimeout="30000ms"
+			capname="webdocument"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="SaveDirectory"
+				id="57815915-434c-40d3-942b-3530d62831b7"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='admin.us.onelogin.com']//input[#'save_directory']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="de14f169-de69-45fc-8990-235eae202cea">
+					/dom[@domain~'onelogin.com']//input[#'save_directory']
+				</item>
+				<basepath>
+					/dom[@domain~'onelogin.com']
+				</basepath>
+			</folder>
+			<folder
+			name="FlashesValidations"
+			id="2744c403-2dc8-4201-ba09-b6c89015a258"
+			searchtimeout="30000ms"
+			capname="webdocument"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="Flash_AD_Succesfully_Updated"
+				id="421331f5-9ab9-4896-94ce-fe35a6292417"
+				searchtimeout="30000ms"
+				capname="divtag"
+				addcaps="unknown,webelement,divtag"
+				refimgid="17d21a4d-cc71-4a4a-b597-962a7e427cfb">
+					/dom[@domain~'onelogin.com']//div[#'flashes']/?/?/div[@innertext~'updated successfully']
+				</item>
+				<basepath>
+					/dom[@domain~'onelogin.com']
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain~'onelogin.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="ADInstanceConsoleRoot"
+		id="64dde86b-4c17-4ec5-bfba-204e04496048"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='AD_Instance - [Console Root\Active Directory Users and Computers [WIN-RERPJMAJ18I.borgrin.onelogin]\borgrin.onelogin]']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<folder
+			name="Tree"
+			id="b18bd21a-8ae2-466d-a11d-8ff9b1cf6a9e"
+			searchtimeout="30000ms"
+			capname="tree"
+			addcaps="tree,nativewindow"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="ActiveDirectoryUsersAndComputersWI"
+				id="e5c66fa7-c09b-43f5-93d7-2e220cc01d11"
+				searchtimeout="30000ms"
+				capname="treeitem"
+				addcaps="treeitem"
+				refimgid="6bb8e10d-5c95-4fe6-ad5b-230aac462acc">
+					/form[@title~'^AD_Instance\ -\ \[Console\ Ro']/?/?/form[]/?/?/tree[]//treeitem[@text~'^Active\ Directory\ Users\ an']
+				</item>
+				<item
+				name="ConsoleRoot"
+				id="4337e4d2-506e-4e7b-baa2-ed22e6efd3c8"
+				searchtimeout="30000ms"
+				capname="treeitem"
+				addcaps="treeitem"
+				refimgid="d7199372-a979-42c0-874a-77f7adec1762">
+					/form[@title~'^AD_Instance\ -\ \[Console\ Ro']/?/?/form[]/?/?/tree[]//treeitem[@text='Console Root']
+				</item>
+				<basepath>
+					/form[@title~'^AD_Instance\ -\ \[Console\ Ro']/?/?/form[]/?/?/tree[]
+				</basepath>
+			</folder>
+			<item
+			name="OUBG1"
+			id="3d357e93-9285-455d-b60c-04a0877beda0"
+			searchtimeout="30000ms"
+			capname="treeitem"
+			addcaps="treeitem"
+			refimgid="2191cd0a-f760-4b7d-87a2-11caee485cb4">
+				/form[@title~'^AD_Instance\ -\ \[Console\ Ro']/container[]/form[]/?/?/tree[]//treeitem[@text='OU_BG1']
+			</item>
+			<item
+			name="TomMorrison"
+			id="477dcb9e-e8aa-4ab2-bd06-7355a6008fbd"
+			searchtimeout="30000ms"
+			capname="cell"
+			addcaps="cell"
+			refimgid="e4258fee-a393-4c74-bc61-ac1a9db11ae1">
+				/form[@title~'^AD_Instance\ -\ \[Console\ Ro']//table[]//cell[@text='Tom Morrison']
+			</item>
+			<item
+			name="Rnrx1Onelogin"
+			id="72c5893f-5f7c-4687-8436-439a08b5e114"
+			searchtimeout="30000ms"
+			capname="treeitem"
+			refpath="/form[@title='AD_Instance - [Console Root\Active Directory Users and Computers [WIN-AMFMR019OHC.rnrx1.onelogin]\rnrx1.onelogin\Computers]']/container[@controlid='59648']/form[@controlid='65280']/element[@controlid='59648']/tree[@controlid='12785']/treeitem[@text='Console Root']/treeitem[@text='Active Directory Users and Computers [WIN-AMFMR019OHC.rnrx1.onelogin]']/treeitem[@text='rnrx1.onelogin']"
+			addcaps="treeitem"
+			refimgid="5d62d9a8-dc78-4ecb-aa06-d86055d43c31">
+				/form[@title~'^AD_Instance\ -\ \[Console\ Ro']/container[@controlid='59648']/form[@controlid='65280']/?/?/tree[@controlid='12785']//treeitem[@text='rnrx1.onelogin']
+			</item>
+			<item
+			name="TestOU11"
+			id="564a196d-8ed6-4134-95b0-75a276a09c81"
+			searchtimeout="30000ms"
+			capname="treeitem"
+			refpath="/form[@title='AD_Instance - [Console Root\Active Directory Users and Computers [WIN-AMFMR019OHC.rnrx1.onelogin]\rnrx1.onelogin\Computers]']/container[@controlid='59648']/form[@controlid='65280']/element[@controlid='59648']/tree[@controlid='12785']/treeitem[@text='Console Root']/treeitem[@text='Active Directory Users and Computers [WIN-AMFMR019OHC.rnrx1.onelogin]']/treeitem[@text='rnrx1.onelogin']/treeitem[@text='testOU1']"
+			addcaps="treeitem"
+			refimgid="8c7244d2-325d-4b1c-994c-2fc504279664">
+				/form[@title~'^AD_Instance\ -\ \[Console\ Ro']/container[@controlid='59648']/form[@controlid='65280']/?/?/tree[@controlid='12785']//treeitem[@text='testOU1']
+			</item>
+			<basepath>
+				/form[@title~'^AD_Instance\ -\ \[Console\ Ro']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAF/SURBVDhPnZBNSwJRFIYD/4CNli1qU6EJZkkS
+KRgxlCDUMnIfgpt0YRGujZZWbvpQIVtFRFguJIsWimTMkIEEVkRC+Qt04e5t7gXHpquBDTzMOe85
+9+HO9OxE9vEfepoPaUovlT/xBvcUb0bgC4a7ghGU3786UipLt/gFIzhKnHUFI2g0GpS3SpVesdl3
+ghEUi0VEY3FZQPpQKASe58FxHIXUJCMzRlCv1ylNgdvtRiAQQCqVkmekJhmZMQJRFBH3+SEsLkBw
+zkHgHRBmbRDs0xBmrB05UamWqKBWq9HD1eghPiO7+NjewuvmBp69HjytLEN0OVFw2JG3WhgUggcX
+j/t5B24tRsqd1STXhKvhIcrPjAoIpEmPDFJiiWOseVbpcjNrlycNhta/yNomkXeYKULxkS6mbSY5
+a5crBVMmFCbMlIN1P8LS92XG9HLWLj/l1C1BbtyInH6URVrOGg1tZ0qBtHQzoGPISFzr+pGWuOzT
+IKnV4ELL4VzTKwnU+AY5q1ljmA3JqwAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		name="MicrosoftManagementConsole"
+		id="25f23ef3-4a04-420d-b0e9-3df009a088eb"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Microsoft Management Console']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ButtonNo"
+			id="fa643021-4def-4af3-b165-6aa76175d17b"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title~'^Microsoft\ Management\ Cons']/button[@text='&amp;No']"
+			addcaps="button,nativewindow"
+			refimgid="757b2351-60f5-4ee5-bc52-4f7dc42b573c">
+				/form[@title~'^Microsoft\ Management\ Cons']/button[@text='&amp;No']
+			</item>
+			<basepath>
+				/form[@title~'^Microsoft\ Management\ Cons']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAF/SURBVDhPnZBNSwJRFIYD/4CNli1qU6EJZkkS
+KRgxlCDUMnIfgpt0YRGujZZWbvpQIVtFRFguJIsWimTMkIEEVkRC+Qt04e5t7gXHpquBDTzMOe85
+9+HO9OxE9vEfepoPaUovlT/xBvcUb0bgC4a7ghGU3786UipLt/gFIzhKnHUFI2g0GpS3SpVesdl3
+ghEUi0VEY3FZQPpQKASe58FxHIXUJCMzRlCv1ylNgdvtRiAQQCqVkmekJhmZMQJRFBH3+SEsLkBw
+zkHgHRBmbRDs0xBmrB05UamWqKBWq9HD1eghPiO7+NjewuvmBp69HjytLEN0OVFw2JG3WhgUggcX
+j/t5B24tRsqd1STXhKvhIcrPjAoIpEmPDFJiiWOseVbpcjNrlycNhta/yNomkXeYKULxkS6mbSY5
+a5crBVMmFCbMlIN1P8LS92XG9HLWLj/l1C1BbtyInH6URVrOGg1tZ0qBtHQzoGPISFzr+pGWuOzT
+IKnV4ELL4VzTKwnU+AY5q1ljmA3JqwAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Services"
+		id="fbd4fdf8-07a4-4a88-8383-1fa81a90724d"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Services']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="OneLoginActiveDirectoryConnector"
+			id="eae599d4-512f-4576-855b-a20ca1ed30e6"
+			searchtimeout="30000ms"
+			capname="cell"
+			addcaps="cell"
+			refimgid="cb6073a3-ddd4-4854-aae4-dd8b165ebfeb">
+				/form[@title='Services']//table[]/row[]/cell[@text~'^OneLogin\ Active\ Directory']
+			</item>
+			<item
+			name="RestartService"
+			id="f6b0427e-e5bc-4abc-8faa-5502d60f22fe"
+			searchtimeout="30000ms"
+			capname="button"
+			addcaps="button,nativeitem,checkable"
+			refimgid="a33ec0a6-42f5-433c-a44a-16dab9b0bcc0">
+				/form[@title='Services']//toolbar[]/button[@text='Restart Service']
+			</item>
+			<item
+			name="Close"
+			id="fc4d1b27-e3bc-44d0-9274-5adda8818798"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Services']/titlebar/button[@accessiblename='Close']"
+			addcaps="button,accessible"
+			refimgid="3fe325aa-2943-495a-8d52-b9d289119732">
+				/form[@title='Services']/?/?/button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@title='Services']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAL1SURBVDhPhZPbT9JhGMd/q4vWRW3VVhf1F3Tn
+RZcdti6ytvJCrZUrq+lsU0zn8jAxZFNQEQUhNRENEOSHICEgBCgCCoEI4RkPeIqJ/jRUPDd7Evml
+eWF9bt5n+zzfd8+zdy/yN3TUehEvkXKxZa68xaIK11Sh6kImHT17IE6CRCKd4mhcto8adwtH53og
+sftA3OvDKOLuBJrQuEHiqN7jrSej8swYHTNB8GJbMLG8C97VHXAHVqDJPAwUfgcZbztOEWq4yjW4
+bdrB7yp3cGt+8sc2yHVmqGuzQrXCCrr+WehbCgHP6PUzlPa+tBKRFI9GoPG/XG40eDbc2DqMh7ah
+EtVCBpnmf57NupdY0Pimokm3afLOw7flEDR09EMalWvAo0e0Dc0SPWtboO2fgmxiyVB0NOEMrpCc
++vYoic3r108FodkxCfHx8adxFaFe73HrpzDo3Z+AI1FDHIF2HVeHcLROkSkQAvnQPJRJTfCSyGbj
+CkH4XQN6zVgg2LeyDXyFHpLyqm7i6pCGTg/ag22CfDgARK7W+4JYXYqrCALLcKJz/wLzDAY1fHSR
+wGQerkAWdt7mWwZXjIu7IHTMQUp+zR1cRSAw289Xym3THeML4Fzfg24fBiKlYUGg0Ljq9G4avc2y
+JOwLgHRgERhyG2RUoP5w7lFKcWTVVArvUhZbLqhSO1DNlP+nNbQHxqVdUPt3oNW3CU39IWBZNoGl
+cu6VcSSgdk/Ah/3nTcyvRWNSqEfTvC79fK5UZhoRWLzA0gwCz7EKdSYMyLwOoEi/ArGcC5bR6V12
+sy6Imj0YQ9YDeDRCerHoSiqlafQts0WYyVZEF/D0kFfbvPQshxmTWyXYllkHflE/KYPh3lqFWcVS
+2OBVYR33IPyHJJLgWlwm/eDTPH7HaHySRS8M17EEalSrywcCXe9as3VEJLNPjFdIuo5P8C/uJuTe
+KG5UjkocYyA2D+0xW02QTuPbYzPKYvCW/3PradbD8Jlc1OAKn/eTybEIgiC/AQrByUIwVWEAAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="AD_RNRX1_ONELOGIN"
+		id="7130699f-3ae3-41bc-bf3b-76d8370a3cd5"
+		searchtimeout="30000ms"
+		capname="form"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="TestOU1"
+			id="3577a0f2-9b9a-4171-9ff7-4ffee1fcba33"
+			searchtimeout="30000ms"
+			capname="treeitem"
+			addcaps="treeitem"
+			refimgid="b5febff5-aee3-437d-adc2-270b69cf89c3">
+				/form[@title~'^AD_Instance\ -\ \[Console\ Ro']/container[]/form[]/?/?/tree[]//treeitem[@text='testOU1']
+			</item>
+			<item
+			name="TestUser1"
+			id="ce9259e7-de2d-4cb2-a2e4-3bded2692bdd"
+			searchtimeout="30000ms"
+			capname="cell"
+			addcaps="cell"
+			refimgid="bb097d3e-f705-4599-bb90-59b2e7db0c5a">
+				/form[@title~'^AD_Instance\ -\ \[Console\ Ro']//table[]/row[]/cell[@text='testUser1']
+			</item>
+			<item
+			name="TestUser2"
+			id="a9144b6a-e712-455e-b876-9048058f0fea"
+			searchtimeout="30000ms"
+			capname="cell"
+			addcaps="cell"
+			refimgid="f52ef549-3f06-4269-9cd5-c331281e01dd">
+				/form[@title~'^AD_Instance\ -\ \[Console\ Ro']//table[]/row[]/cell[@text='testUser2']
+			</item>
+			<item
+			name="UserName"
+			id="cf048e1c-1637-45f6-b59c-c1b8db7db1e6"
+			searchtimeout="30000ms"
+			capname="cell"
+			addcaps="cell"
+			refimgid="9f380123-69dc-42dc-9c24-3d584e6e6a7b">
+				/form[@title~'^AD_Instance\ -\ \[Console\ Ro']//table[]/row[]/cell[@text='abcd bbbb']
+			</item>
+			<item
+			name="Delete"
+			id="0c33dc53-0dfa-4b7e-8f8f-59ca4b3e55fb"
+			searchtimeout="30000ms"
+			capname="button"
+			addcaps="button,nativeitem,checkable"
+			refimgid="e125943a-c719-4349-a064-35697e95b5c9">
+				/form[@title~'^AD_Instance\ -\ \[Console\ Ro']//toolbar[]/button[@text='Delete']
+			</item>
+			<item
+			name="Refresh"
+			id="2bbc4ee1-acd4-45d4-b3bf-23e7dab1d141"
+			searchtimeout="30000ms"
+			capname="button"
+			addcaps="button,nativeitem,checkable"
+			refimgid="fd3f3078-0372-4b12-aaf8-68cf1d4d8eac">
+				/form[@title~'^AD_Instance\ -\ \[Console\ Ro']//toolbar[]/button[@text='Refresh']
+			</item>
+			<basepath>
+				/form[@title~'^AD_Instance\ -\ \[Console\ Ro']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAADfSURBVDhP7ZKhC8JAFIf3pxiNRuviolEwLS4u
+Li/JMIgYRAyDMwi3IMwgzCLMIGgYzCCcwXDBcHHx5xsKCuKczOiDD4539z7ee5z2s2BdHd9wL3tE
+ngwDB+HMAp+a4H4bfNICHxngwyZYv0HUwXo1uB3tVSD3LjIVQR05ZDKG3HsQWxtibSFdtpEuWtjN
+DbqzEPuNYgGgCEkIYkfEREQC/bNAHhk9fiMIygio/coCQWexsZGuzKf59XKCTIXILhyZHEOdB1An
+j/biQh0cqMT+C4oElb9yZUGe/IZblaZdASrkGxJOxE72AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="ActiveDirectoryDomainServices"
+		id="b9f7c245-dd61-43df-bbd0-a8d894422421"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Active Directory Domain Services']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ButtonYes"
+			id="7891029f-c4f3-4338-ab07-33ef1a221abc"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title~'^Active\ Directory\ Domain\ S']/button[@text='&amp;Yes']"
+			addcaps="button,nativewindow"
+			refimgid="30018418-d5b9-4d9c-b880-d84209041730">
+				/form[@title~'^Active\ Directory\ Domain\ S']/button[@text='&amp;Yes']
+			</item>
+			<basepath>
+				/form[@title~'^Active\ Directory\ Domain\ S']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAF/SURBVDhPnZBNSwJRFIYD/4CNli1qU6EJZkkS
+KRgxlCDUMnIfgpt0YRGujZZWbvpQIVtFRFguJIsWimTMkIEEVkRC+Qt04e5t7gXHpquBDTzMOe85
+9+HO9OxE9vEfepoPaUovlT/xBvcUb0bgC4a7ghGU3786UipLt/gFIzhKnHUFI2g0GpS3SpVesdl3
+ghEUi0VEY3FZQPpQKASe58FxHIXUJCMzRlCv1ylNgdvtRiAQQCqVkmekJhmZMQJRFBH3+SEsLkBw
+zkHgHRBmbRDs0xBmrB05UamWqKBWq9HD1eghPiO7+NjewuvmBp69HjytLEN0OVFw2JG3WhgUggcX
+j/t5B24tRsqd1STXhKvhIcrPjAoIpEmPDFJiiWOseVbpcjNrlycNhta/yNomkXeYKULxkS6mbSY5
+a5crBVMmFCbMlIN1P8LS92XG9HLWLj/l1C1BbtyInH6URVrOGg1tZ0qBtHQzoGPISFzr+pGWuOzT
+IKnV4ELL4VzTKwnU+AY5q1ljmA3JqwAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables>
+		<var
+		name="var_AD_Name"
+		id="f10eaa53-a92f-425b-acda-eab26f5a6eda">
+			Active Directory
+		</var>
+		<var
+		name="var_Min_User_Count"
+		id="8801311a-5520-4619-bd2c-4ded43a1b7e1">
+			0
+		</var>
+		<var
+		name="var_Min_User2"
+		id="84520652-c0ba-43b7-8ba8-7e55c5c4a800">
+			1
+		</var>
+		<var
+		name="var_Max_User_Count"
+		id="82d83409-3ed0-4478-902b-70a91d335b00">
+			2
+		</var>
+	</variables>
+</repository>
