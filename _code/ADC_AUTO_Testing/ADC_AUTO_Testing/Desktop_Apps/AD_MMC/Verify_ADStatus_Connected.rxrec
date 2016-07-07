@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="20776f16-0b54-4844-953a-589dd01da553"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Verify_ADStatus_Connected
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Verify_ADStatus_Connected"
+	namespace="ADC_AUTO_Testing.Desktop_Apps.AD_MMC"/>
+	<variables>
+		<var
+		name="var_Min_User_Count"
+		id="8801311a-5520-4619-bd2c-4ded43a1b7e1">
+			0
+		</var>
+	</variables>
+	<recorditems>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="ef53715a-a023-48f1-9707-195f182527df"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="2ec122eb-8346-4ba1-a2eb-28d8ca652877">
+				<element
+				role="unknown"
+				prefcap="spantag"
+				capabilities="webelement, spantag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="1137,270,69,15"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						connected-status
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Connected
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain~'onelogin.com']//div[#'main-content']/div/div[2]//table/?/?/tr/td[4]/span[@innertext='Connected']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="372e33df-058b-4009-ba1c-7b4f6d29c9a3">
+				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
+			</helperscreenshot>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Connected
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	name="AD_SuiteRepository"
+	id="d1e58214-55e4-40c0-9556-4b696f0f251b"
+	rxversion="6.0"
+	relativepath="..\..\ALL_REPOS\AD_SuiteRepository.rxrep">
+		<codegen
+		classname="AD_SuiteRepository"
+		namespace="ADC_AUTO_Testing.ALL_REPOS"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="d189d0d0-f16a-4e7c-942b-cd6e8e0973a1"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Verify_ADStatus_Connected.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

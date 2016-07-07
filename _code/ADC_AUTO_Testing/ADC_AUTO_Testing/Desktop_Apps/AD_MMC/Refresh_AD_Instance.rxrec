@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="289ca8fa-0054-4b77-ae60-9e6c44bdca7d"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Refresh_AD_Instance
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Refresh_AD_Instance"
+	namespace="ADC_AUTO_Testing.Desktop_Apps.AD_MMC"/>
+	<variables/>
+	<recorditems>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="100ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="3b8d6a1e-f053-4057-90de-041bdcfcc203"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="2028"
+		sy="88"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="2bbc4ee1-acd4-45d4-b3bf-23e7dab1d141">
+				<element
+				role="button"
+				prefcap="button"
+				capabilities="nativeitem, checkable"
+				flavor="win32"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="13"
+				rect="2017,76,23,22"
+				snapElem="">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Refresh
+					</attribute>
+					<attribute
+					name="commandid"
+					type="System.Int32">
+						14
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.Boolean">
+						False
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^AD_Instance\ -\ \[Console\ Ro']//toolbar[@controlid='4098']/button[@text='Refresh']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="6a09950e-af94-4773-9af9-8a3185522977">
+				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
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	name="AD_SuiteRepository"
+	id="d1e58214-55e4-40c0-9556-4b696f0f251b"
+	rxversion="6.0"
+	relativepath="..\..\ALL_REPOS\AD_SuiteRepository.rxrep">
+		<codegen
+		classname="AD_SuiteRepository"
+		namespace="ADC_AUTO_Testing.ALL_REPOS"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="d189d0d0-f16a-4e7c-942b-cd6e8e0973a1"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Refresh_AD_Instance.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

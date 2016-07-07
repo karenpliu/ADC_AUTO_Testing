@@ -78,6 +78,105 @@
     <Compile Include="AssemblyInfo.cs">
       <id>19388bf9-b4dd-46b7-9b54-517543ccb93e</id>
     </Compile>
+    <Compile Include="Desktop_Apps\AD_MMC\Close_AD_Instance.cs">
+      <DependentUpon>Close_AD_Instance.rxrec</DependentUpon>
+      <id>36937ece-dbab-43b6-9482-adda67a8e626</id>
+      <BoundTo>df243943-67ad-4fb0-b9b2-421ba46672cb</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Desktop_Apps\AD_MMC\Close_AD_Instance.UserCode.cs">
+      <DependentUpon>Close_AD_Instance.rxrec</DependentUpon>
+      <id>02211466-d9c7-4068-83f3-fbfc5e0c673e</id>
+      <BoundTo>df243943-67ad-4fb0-b9b2-421ba46672cb</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Desktop_Apps\AD_MMC\CreateUser_boris5.cs">
+      <DependentUpon>CreateUser_boris5.rxrec</DependentUpon>
+      <id>219a3ba2-9f35-4ebf-983c-1d6c250d5a75</id>
+      <BoundTo>0fb5a3ff-f659-41c2-8c92-01021ffe8f96</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Desktop_Apps\AD_MMC\CreateUser_boris5.UserCode.cs">
+      <DependentUpon>CreateUser_boris5.rxrec</DependentUpon>
+      <id>2d67111b-bd6c-45cc-8d5b-38b90035dfef</id>
+      <BoundTo>0fb5a3ff-f659-41c2-8c92-01021ffe8f96</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Desktop_Apps\AD_MMC\Delete_User_boris5.cs">
+      <DependentUpon>Delete_User_boris5.rxrec</DependentUpon>
+      <id>8b082ecb-6be3-4335-beb7-36200220b076</id>
+      <BoundTo>be306441-e6f0-4e58-a3e4-b9b9f80aa602</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Desktop_Apps\AD_MMC\Delete_User_boris5.UserCode.cs">
+      <DependentUpon>Delete_User_boris5.rxrec</DependentUpon>
+      <id>dedbb664-277a-4464-a037-9b56984575a1</id>
+      <BoundTo>be306441-e6f0-4e58-a3e4-b9b9f80aa602</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Desktop_Apps\AD_MMC\Open_and_Verify_AD_Instance.cs">
+      <DependentUpon>Open_and_Verify_AD_Instance.rxrec</DependentUpon>
+      <id>a152c363-d41d-49a8-8568-1a0970760062</id>
+      <BoundTo>5a23946d-6b70-4770-9862-af2b91250a61</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Desktop_Apps\AD_MMC\Open_and_Verify_AD_Instance.UserCode.cs">
+      <DependentUpon>Open_and_Verify_AD_Instance.rxrec</DependentUpon>
+      <id>7f817ec9-de8f-4d5a-83d4-ee6b6c2ab24e</id>
+      <BoundTo>5a23946d-6b70-4770-9862-af2b91250a61</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Desktop_Apps\AD_MMC\Refresh_AD_Instance.cs">
+      <DependentUpon>Refresh_AD_Instance.rxrec</DependentUpon>
+      <id>57eb5fce-cb48-41e1-b1c9-1f605ae044ab</id>
+      <BoundTo>9e75a1a5-842e-4ab3-a315-9a6acfe8c23f</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Desktop_Apps\AD_MMC\Refresh_AD_Instance.UserCode.cs">
+      <DependentUpon>Refresh_AD_Instance.rxrec</DependentUpon>
+      <id>aa7b55a5-be18-4640-9954-37b9e8b451ed</id>
+      <BoundTo>9e75a1a5-842e-4ab3-a315-9a6acfe8c23f</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Desktop_Apps\AD_MMC\TC_Validate_One_User_in_OU_BG1.UserCode.cs">
+      <id>be91e200-a52c-4e95-8e63-df2d7001b8a0</id>
+    </Compile>
+    <Compile Include="Desktop_Apps\AD_MMC\Validate_One_User_in_OU_BG1.cs">
+      <DependentUpon>Validate_One_User_in_OU_BG1.rxrec</DependentUpon>
+      <id>d6f7fad7-acf8-4cf7-a6b0-5315c63250c9</id>
+      <BoundTo>67620991-b106-42f6-86d3-72731cf93ecf</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Desktop_Apps\AD_MMC\Validate_One_User_in_OU_BG1.UserCode.cs">
+      <DependentUpon>Validate_One_User_in_OU_BG1.rxrec</DependentUpon>
+      <id>b6f9d120-3100-455a-8452-a64b5a49b11a</id>
+      <BoundTo>67620991-b106-42f6-86d3-72731cf93ecf</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Desktop_Apps\AD_MMC\Vaslidate_Two_Users_in_testOU1.cs">
+      <DependentUpon>Vaslidate_Two_Users_in_testOU1.rxrec</DependentUpon>
+      <id>27f55e44-f9ba-4ca7-8252-e78d291bd971</id>
+      <BoundTo>e514c3a2-d020-4d2e-ba92-60e03a36aa09</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Desktop_Apps\AD_MMC\Vaslidate_Two_Users_in_testOU1.UserCode.cs">
+      <DependentUpon>Vaslidate_Two_Users_in_testOU1.rxrec</DependentUpon>
+      <id>bb63baaf-ec10-4991-9a9c-f3436137057d</id>
+      <BoundTo>e514c3a2-d020-4d2e-ba92-60e03a36aa09</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Desktop_Apps\AD_MMC\Verify_ADStatus_Connected.cs">
+      <DependentUpon>Verify_ADStatus_Connected.rxrec</DependentUpon>
+      <id>cc87b5b7-d64d-4b93-82ea-bec8e52edb85</id>
+      <BoundTo>698ed561-3b3c-488e-bce1-50a3f71ad5b7</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Desktop_Apps\AD_MMC\Verify_ADStatus_Connected.UserCode.cs">
+      <DependentUpon>Verify_ADStatus_Connected.rxrec</DependentUpon>
+      <id>8776d4c4-cb3a-4df7-9eaa-f04133c17790</id>
+      <BoundTo>698ed561-3b3c-488e-bce1-50a3f71ad5b7</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
     <Compile Include="Program.cs">
       <id>99911cb8-1604-4b23-b4a1-b851e1aca6b2</id>
     </Compile>
@@ -120,6 +219,46 @@
     <None Include="app.config">
       <id>12f5d20d-3fcf-4754-920b-8a37a05e1661</id>
     </None>
+    <None Include="Desktop_Apps\AD_MMC\Close_AD_Instance.rxrec">
+      <id>df243943-67ad-4fb0-b9b2-421ba46672cb</id>
+      <BoundTo>a8c7908c-bea3-45f3-bac8-e7d8218c9fc4</BoundTo>
+      <recordtableid>ad12f597-15d3-4add-8da4-ddc3dc03c0c1</recordtableid>
+    </None>
+    <None Include="Desktop_Apps\AD_MMC\CreateUser_boris5.rxrec">
+      <id>0fb5a3ff-f659-41c2-8c92-01021ffe8f96</id>
+      <BoundTo>a8c7908c-bea3-45f3-bac8-e7d8218c9fc4</BoundTo>
+      <recordtableid>b14ba341-3394-446b-bf40-4c3afc862dd7</recordtableid>
+    </None>
+    <None Include="Desktop_Apps\AD_MMC\Delete_User_boris5.rxrec">
+      <id>be306441-e6f0-4e58-a3e4-b9b9f80aa602</id>
+      <BoundTo>a8c7908c-bea3-45f3-bac8-e7d8218c9fc4</BoundTo>
+      <recordtableid>a1ebb38a-87f6-45b7-93d0-464a681a8fb4</recordtableid>
+    </None>
+    <None Include="Desktop_Apps\AD_MMC\Open_and_Verify_AD_Instance.rxrec">
+      <id>5a23946d-6b70-4770-9862-af2b91250a61</id>
+      <BoundTo>a8c7908c-bea3-45f3-bac8-e7d8218c9fc4</BoundTo>
+      <recordtableid>7e863221-79bd-4637-93d5-39185052b625</recordtableid>
+    </None>
+    <None Include="Desktop_Apps\AD_MMC\Refresh_AD_Instance.rxrec">
+      <id>9e75a1a5-842e-4ab3-a315-9a6acfe8c23f</id>
+      <BoundTo>a8c7908c-bea3-45f3-bac8-e7d8218c9fc4</BoundTo>
+      <recordtableid>289ca8fa-0054-4b77-ae60-9e6c44bdca7d</recordtableid>
+    </None>
+    <None Include="Desktop_Apps\AD_MMC\Validate_One_User_in_OU_BG1.rxrec">
+      <id>67620991-b106-42f6-86d3-72731cf93ecf</id>
+      <BoundTo>a8c7908c-bea3-45f3-bac8-e7d8218c9fc4</BoundTo>
+      <recordtableid>4b2d8f0f-ce15-4aee-9431-2fb39e3882f7</recordtableid>
+    </None>
+    <None Include="Desktop_Apps\AD_MMC\Vaslidate_Two_Users_in_testOU1.rxrec">
+      <id>e514c3a2-d020-4d2e-ba92-60e03a36aa09</id>
+      <BoundTo>a8c7908c-bea3-45f3-bac8-e7d8218c9fc4</BoundTo>
+      <recordtableid>8202953a-541e-4c6b-b4af-3cab69d1ecd0</recordtableid>
+    </None>
+    <None Include="Desktop_Apps\AD_MMC\Verify_ADStatus_Connected.rxrec">
+      <id>698ed561-3b3c-488e-bce1-50a3f71ad5b7</id>
+      <BoundTo>a8c7908c-bea3-45f3-bac8-e7d8218c9fc4</BoundTo>
+      <recordtableid>20776f16-0b54-4844-953a-589dd01da553</recordtableid>
+    </None>
     <None Include="Recording1.rxrec">
       <BoundTo>d57d4ed3-0bea-4ce6-8ea4-e3a7354721b3</BoundTo>
       <id>5f742a8b-fa74-4cc4-88f2-2b8602b0caa7</id>
@@ -139,6 +278,12 @@
   <ItemGroup>
     <Folder Include="ALL_REPOS">
       <id>ae983d6a-80d9-4bea-9f34-0c102f1e8f9d</id>
+    </Folder>
+    <Folder Include="Desktop_Apps">
+      <id>1acd98ea-e386-4e56-9813-01b6c39ffb2a</id>
+    </Folder>
+    <Folder Include="Desktop_Apps\AD_MMC">
+      <id>0c8f66d8-751a-4d04-96d0-a3bc23756fc0</id>
     </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
