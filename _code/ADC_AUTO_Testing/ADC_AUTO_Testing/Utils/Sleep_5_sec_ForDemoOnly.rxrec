@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="9479734e-566a-47be-86a3-0f7740ddff7c"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Sleep_5_sec_ForDemoOnly
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Sleep_5_sec_ForDemoOnly"
+	namespace="ADC_AUTO_Testing.Utils"/>
+	<variables/>
+	<recorditems>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="5000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	name="AD_SuiteRepository"
+	id="d1e58214-55e4-40c0-9556-4b696f0f251b"
+	rxversion="6.0"
+	relativepath="..\ALL_REPOS\AD_SuiteRepository.rxrep">
+		<codegen
+		classname="AD_SuiteRepository"
+		namespace="ADC_AUTO_Testing.ALL_REPOS"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="d189d0d0-f16a-4e7c-942b-cd6e8e0973a1"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Sleep_5_sec_ForDemoOnly.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

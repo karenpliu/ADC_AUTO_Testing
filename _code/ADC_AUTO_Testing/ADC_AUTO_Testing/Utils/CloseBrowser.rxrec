@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="049dcd64-c00a-4098-ae42-7b0dc2caf996"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		CloseBrowser
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="ADC_AUTO_Testing.Utils"/>
+	<variables/>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="18e52ff5-d282-45de-a9c1-6d02b4cda586"
+		method="CloseWindow"
+		graceperiod="0ms">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="097c1a52-c49b-44f3-80da-20e25727a473">
+				<path>
+					/dom[@domain~'boris12.onelogin.com']
+				</path>
+			</info>
+		</closeapprecorditem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="c976617e-94a0-4189-b631-c18ce769dd43"
+		waittimeout="10000ms"
+		waitaction="NotExists">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="097c1a52-c49b-44f3-80da-20e25727a473">
+				<path>
+					/dom[@domain~'boris12.onelogin.com']
+				</path>
+			</info>
+		</WaitForRecordItem>
+	</recorditems>
+	<repository
+	name="AD_SuiteRepository"
+	id="d1e58214-55e4-40c0-9556-4b696f0f251b"
+	rxversion="6.0"
+	relativepath="..\ALL_REPOS\AD_SuiteRepository.rxrep">
+		<codegen
+		classname="AD_SuiteRepository"
+		namespace="ADC_AUTO_Testing.ALL_REPOS"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="d189d0d0-f16a-4e7c-942b-cd6e8e0973a1"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="b38f6e4a-e96c-4e03-a41e-c9daf8cb9865"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Open_Services
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Open_Services"
+	namespace="ADC_AUTO_Testing.Utils"/>
+	<variables/>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		optional="False"
+		maximized="False">
+			<comment/>
+			<bindings/>
+			<filename>
+				services.msc
+			</filename>
+			<workingdir>
+				%windir%\system32\
+			</workingdir>
+			<args/>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	name="AD_SuiteRepository"
+	id="d1e58214-55e4-40c0-9556-4b696f0f251b"
+	rxversion="6.0"
+	relativepath="..\ALL_REPOS\AD_SuiteRepository.rxrep">
+		<codegen
+		classname="AD_SuiteRepository"
+		namespace="ADC_AUTO_Testing.ALL_REPOS"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="d189d0d0-f16a-4e7c-942b-cd6e8e0973a1"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Open_Services.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

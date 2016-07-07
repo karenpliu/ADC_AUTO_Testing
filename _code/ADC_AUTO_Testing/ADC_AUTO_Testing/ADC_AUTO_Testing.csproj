@@ -192,6 +192,123 @@
       <UserCode>true</UserCode>
       <id>382f845f-e250-4008-9dcf-7aaf4a22d093</id>
     </Compile>
+    <Compile Include="Utils\Browser_History_Back.UserCode.cs">
+      <id>faf12e9d-f7d4-4bcb-8e6c-071668609e75</id>
+    </Compile>
+    <Compile Include="Utils\CloseBrowser.cs">
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <id>bd4a94e9-ee17-420a-8e5d-83d99556fbe3</id>
+      <BoundTo>ce3fc930-9af9-4c37-a944-1ccf418b8f89</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Utils\CloseBrowser.UserCode.cs">
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <id>b2cb18be-6e4a-4331-b423-a5a4a7bed2b4</id>
+      <BoundTo>ce3fc930-9af9-4c37-a944-1ccf418b8f89</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Utils\Close_Services.cs">
+      <DependentUpon>Close_Services.rxrec</DependentUpon>
+      <id>1c620494-f1dd-42d5-8d06-b3512e1a59ab</id>
+      <BoundTo>56a9aa20-16d2-4e71-8147-30d5b7baaf6d</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Utils\Close_Services.UserCode.cs">
+      <DependentUpon>Close_Services.rxrec</DependentUpon>
+      <id>0dcc6ed9-e6c2-4f55-b68e-238c9ee87edc</id>
+      <BoundTo>56a9aa20-16d2-4e71-8147-30d5b7baaf6d</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Utils\Logout.cs">
+      <DependentUpon>Logout.rxrec</DependentUpon>
+      <id>13a55266-7c1b-48f1-a8ae-515b88be7b4e</id>
+      <BoundTo>3f14b6b1-ad51-4cbb-8d6c-4943adf136a2</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Utils\Logout.UserCode.cs">
+      <DependentUpon>Logout.rxrec</DependentUpon>
+      <id>a0ea9b88-15b5-4440-ba08-b12e27e300d9</id>
+      <BoundTo>3f14b6b1-ad51-4cbb-8d6c-4943adf136a2</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Utils\Open_Services.cs">
+      <DependentUpon>Open_Services.rxrec</DependentUpon>
+      <id>8db48e1c-e33c-4b6f-b877-09fc46ec734f</id>
+      <BoundTo>8e3574bc-788f-4d92-aac7-e66ede0a4c10</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Utils\Open_Services.UserCode.cs">
+      <DependentUpon>Open_Services.rxrec</DependentUpon>
+      <id>e4dd080f-14c2-45b5-a998-d203a055e47d</id>
+      <BoundTo>8e3574bc-788f-4d92-aac7-e66ede0a4c10</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Utils\Refresh_Browser.cs">
+      <DependentUpon>Refresh_Browser.rxrec</DependentUpon>
+      <id>c4958c8e-8cb0-4ce7-80dd-15c0d6a9cbe2</id>
+      <BoundTo>d99eb731-0e4c-40ad-823c-64d62ad6c73c</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Utils\Refresh_Browser.UserCode.cs">
+      <DependentUpon>Refresh_Browser.rxrec</DependentUpon>
+      <id>b7fb173c-f03c-42c2-bd7e-6241c7f8cf6c</id>
+      <BoundTo>d99eb731-0e4c-40ad-823c-64d62ad6c73c</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Utils\Restart_ADDS_BAT_File.cs">
+      <DependentUpon>Restart_ADDS_BAT_File.rxrec</DependentUpon>
+      <id>6e4dd5e9-bed1-49aa-bd10-0203ee66b382</id>
+      <BoundTo>8de79a99-30da-4d0b-8c19-49dfb853335a</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Utils\Restart_ADDS_BAT_File.UserCode.cs">
+      <DependentUpon>Restart_ADDS_BAT_File.rxrec</DependentUpon>
+      <id>3560aaf6-8b20-49b9-b132-028c9e161a79</id>
+      <BoundTo>8de79a99-30da-4d0b-8c19-49dfb853335a</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Utils\Restart_OneLogin_Active_Directory_Connector.cs">
+      <DependentUpon>Restart_OneLogin_Active_Directory_Connector.rxrec</DependentUpon>
+      <id>9e87a2c7-bf2a-4303-95d0-e4d3066477dc</id>
+      <BoundTo>a4884e8a-d71d-491b-8fb1-60adb3459a1a</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Utils\Restart_OneLogin_Active_Directory_Connector.UserCode.cs">
+      <DependentUpon>Restart_OneLogin_Active_Directory_Connector.rxrec</DependentUpon>
+      <id>8f86dc1a-887c-495f-95bc-be60aefe97fc</id>
+      <BoundTo>a4884e8a-d71d-491b-8fb1-60adb3459a1a</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Utils\Sleep_10_sec_for_Demo_only.cs">
+      <id>aeadb425-c22c-4c1d-a543-6a306cd92652</id>
+      <BoundTo>44ed4617-ba6b-4e87-a5cf-3449d5baaca3</BoundTo>
+      <DependentUpon>Sleep_10_sec-for_Demo_only.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Utils\Sleep_10_sec_for_Demo_only.UserCode.cs">
+      <BoundTo>44ed4617-ba6b-4e87-a5cf-3449d5baaca3</BoundTo>
+      <DependentUpon>Sleep_10_sec-for_Demo_only.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>660b991d-2006-427e-b87c-2d53f6bab6aa</id>
+    </Compile>
+    <Compile Include="Utils\Sleep_5_sec_ForDemoOnly.cs">
+      <DependentUpon>Sleep_5_sec_ForDemoOnly.rxrec</DependentUpon>
+      <id>51fdbf94-ec36-46d0-96a5-fb847b8005e0</id>
+      <BoundTo>cb49ef08-fc90-42e3-a883-09ed451516f6</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Utils\Sleep_5_sec_ForDemoOnly.UserCode.cs">
+      <DependentUpon>Sleep_5_sec_ForDemoOnly.rxrec</DependentUpon>
+      <id>f4ff71fc-5ce8-40f5-a263-45085131971d</id>
+      <BoundTo>cb49ef08-fc90-42e3-a883-09ed451516f6</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Utils\TC_Close_Services.cs">
+      <id>55e8e769-11e4-410d-a5f0-cdae1982f71f</id>
+    </Compile>
+    <Compile Include="Utils\TC_Close_Services.UserCode.cs">
+      <id>b646c7b4-7a33-49c7-9d45-3d0560d0f02e</id>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ADC_AUTO_TestingRepository.rximg">
@@ -264,6 +381,51 @@
       <id>5f742a8b-fa74-4cc4-88f2-2b8602b0caa7</id>
       <recordtableid>fcdbbd01-2f76-4cc7-adf4-5eb0a62b9eb5</recordtableid>
     </None>
+    <None Include="Utils\CloseBrowser.rxrec">
+      <id>ce3fc930-9af9-4c37-a944-1ccf418b8f89</id>
+      <BoundTo>a8c7908c-bea3-45f3-bac8-e7d8218c9fc4</BoundTo>
+      <recordtableid>049dcd64-c00a-4098-ae42-7b0dc2caf996</recordtableid>
+    </None>
+    <None Include="Utils\Close_Services.rxrec">
+      <id>56a9aa20-16d2-4e71-8147-30d5b7baaf6d</id>
+      <BoundTo>a8c7908c-bea3-45f3-bac8-e7d8218c9fc4</BoundTo>
+      <recordtableid>c3dba9b5-b635-41b9-8bee-7b076fe46875</recordtableid>
+    </None>
+    <None Include="Utils\Logout.rxrec">
+      <id>3f14b6b1-ad51-4cbb-8d6c-4943adf136a2</id>
+      <BoundTo>a8c7908c-bea3-45f3-bac8-e7d8218c9fc4</BoundTo>
+      <recordtableid>29aef836-84ef-4f01-be67-676c64f4bc63</recordtableid>
+    </None>
+    <None Include="Utils\Open_Services.rxrec">
+      <id>8e3574bc-788f-4d92-aac7-e66ede0a4c10</id>
+      <BoundTo>a8c7908c-bea3-45f3-bac8-e7d8218c9fc4</BoundTo>
+      <recordtableid>b38f6e4a-e96c-4e03-a41e-c9daf8cb9865</recordtableid>
+    </None>
+    <None Include="Utils\Refresh_Browser.rxrec">
+      <id>d99eb731-0e4c-40ad-823c-64d62ad6c73c</id>
+      <BoundTo>a8c7908c-bea3-45f3-bac8-e7d8218c9fc4</BoundTo>
+      <recordtableid>9cea9b21-6217-4ae4-b8dd-82ecefa8d2ea</recordtableid>
+    </None>
+    <None Include="Utils\Restart_ADDS_BAT_File.rxrec">
+      <id>8de79a99-30da-4d0b-8c19-49dfb853335a</id>
+      <BoundTo>a8c7908c-bea3-45f3-bac8-e7d8218c9fc4</BoundTo>
+      <recordtableid>a7c9222d-4fd1-4f3c-b185-6cdb5a8a3768</recordtableid>
+    </None>
+    <None Include="Utils\Restart_OneLogin_Active_Directory_Connector.rxrec">
+      <id>a4884e8a-d71d-491b-8fb1-60adb3459a1a</id>
+      <BoundTo>a8c7908c-bea3-45f3-bac8-e7d8218c9fc4</BoundTo>
+      <recordtableid>01d56a25-5247-4fae-9203-417ed072fa7c</recordtableid>
+    </None>
+    <None Include="Utils\Sleep_10_sec-for_Demo_only.rxrec">
+      <id>44ed4617-ba6b-4e87-a5cf-3449d5baaca3</id>
+      <BoundTo>a8c7908c-bea3-45f3-bac8-e7d8218c9fc4</BoundTo>
+      <recordtableid>b89a6b97-7134-424c-9fab-b264e320186c</recordtableid>
+    </None>
+    <None Include="Utils\Sleep_5_sec_ForDemoOnly.rxrec">
+      <id>cb49ef08-fc90-42e3-a883-09ed451516f6</id>
+      <BoundTo>a8c7908c-bea3-45f3-bac8-e7d8218c9fc4</BoundTo>
+      <recordtableid>9479734e-566a-47be-86a3-0f7740ddff7c</recordtableid>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="ADC_AUTO_Testing.rxtmg">
@@ -284,6 +446,9 @@
     </Folder>
     <Folder Include="Desktop_Apps\AD_MMC">
       <id>0c8f66d8-751a-4d04-96d0-a3bc23756fc0</id>
+    </Folder>
+    <Folder Include="Utils">
+      <id>cbcb8b9e-1320-4bca-90f4-9e930561d759</id>
     </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
