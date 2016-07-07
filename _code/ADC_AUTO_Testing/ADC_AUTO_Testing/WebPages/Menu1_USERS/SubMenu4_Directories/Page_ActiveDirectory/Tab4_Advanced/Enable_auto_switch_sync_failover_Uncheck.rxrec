@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="e614ce15-ff9c-4d9f-92c5-219cfa40fce1"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Enable_auto_switch_sync_failover_Uncheck
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Enable_auto_switch_sync_failover_Uncheck"
+	namespace="ADC_AUTO_Testing.WebPages.Menu1_USERS.SubMenu4_Directories.Page_ActiveDirectory.Tab4_Advanced"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Uncheck_Enable_AutoSwitch_sync_failover"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="eb8feacd-17fa-4425-b306-e343d7b18209"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="AD_SuiteRepository"
+	id="d1e58214-55e4-40c0-9556-4b696f0f251b"
+	rxversion="6.0"
+	relativepath="..\..\..\..\..\ALL_REPOS\AD_SuiteRepository.rxrep">
+		<codegen
+		classname="AD_SuiteRepository"
+		namespace="ADC_AUTO_Testing.ALL_REPOS"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="d189d0d0-f16a-4e7c-942b-cd6e8e0973a1"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Enable_auto_switch_sync_failover_Uncheck.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

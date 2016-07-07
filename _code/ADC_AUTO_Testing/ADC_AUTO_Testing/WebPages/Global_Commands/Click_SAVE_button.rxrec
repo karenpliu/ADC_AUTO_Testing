@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="dc98f9dc-646d-469a-a53b-028d754ba24e"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Click_SAVE_button
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Click_SAVE_button"
+	namespace="ADC_AUTO_Testing.WebPages.Global_Commands"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="a740eaa9-c34f-4230-867e-9b7b2b5c942d"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="1226"
+		sy="187"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="57815915-434c-40d3-942b-3530d62831b7">
+				<element
+				role="unknown"
+				prefcap="inputtag"
+				capabilities="webelement, inputtag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="2"
+				rect="1194,169,65,35"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						btn btn-primary
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						save_directory
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Save
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						commit
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						submit
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Save
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain~'onelogin.com']//input[#'save_directory']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="0d5f9573-c66c-4804-ac48-a97606affe70">
+				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
+oooAKKKKACiiigAooooA/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="500ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	name="AD_SuiteRepository"
+	id="d1e58214-55e4-40c0-9556-4b696f0f251b"
+	rxversion="6.0"
+	relativepath="..\..\ALL_REPOS\AD_SuiteRepository.rxrep">
+		<codegen
+		classname="AD_SuiteRepository"
+		namespace="ADC_AUTO_Testing.ALL_REPOS"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="d189d0d0-f16a-4e7c-942b-cd6e8e0973a1"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Click_SAVE_button.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

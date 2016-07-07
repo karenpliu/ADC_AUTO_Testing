@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="1a786aa6-9990-447d-a125-d31eba719435"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Expand_DC_in_OL
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Expand_DC_in_OL"
+	namespace="ADC_AUTO_Testing.WebPages.Menu1_USERS.SubMenu4_Directories.Page_ActiveDirectory.Tab2_OU_Selection"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="bf90b4a8-5291-4034-ab3d-b5811e09b039"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="347"
+		sy="538"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="2e10aee7-03a5-470b-9746-af8905c50985">
+				<element
+				role="unknown"
+				prefcap="itag"
+				capabilities="webelement, itag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="339,532,13,15"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						switch fa ol-min-width-12 pointer-hover ol-hover-gray expand fa-plus-square
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						i
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain~'onelogin.com']//ul[#'dn-selection']/?/?/i
+				</path>
+			</info>
+			<helperscreenshot
+			guid="d25c3baf-99ae-46ba-8324-13195238d3ef">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA0AE4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKpax/wAgyb/gP/oQq7VLWP8AkGTf8B/9CFKWzNKP8SPqjFhh
+glKIkUzuRzhwOcc9qfHb2sqTYEyukbOMsCDgfSptKnhjkRZI1Dc/vC2McVHGBEiusR2vYpvKDq77
+gCR1JJwO9TyRsavEVOe1+pqaT/yCY/o38zV3aPf8zVHSWB0pVB+ZNysO6nJ4I7Gr9VHZGVV3qS9W
+JtHv+ZoX7o+lLSJ9xfpTMxaKKKACq2pRPPYSRxLudsYGcdxVmik1dWKjJxkpLoYP2acNC15ahIYl
+2l42AI6AO3ODjHfjBJrTtLNVs4Fmj/eLFErc905HT0OatMqupV1DKwwQRkEVUhluIYxE9pPKUJUO
+GQ7gDwTls5Ixn3oSsE5czvawiwrDfxohOJI5Wb3JdT+m5sfWrmD/AHj+lV7VZHnmnliaIttRVYgn
+aBnPBPOWb9Ks0yRMH+8f0pQMAD0oooAKKKKACiiigAooooAKKKKACiiigD//2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	name="AD_SuiteRepository"
+	id="d1e58214-55e4-40c0-9556-4b696f0f251b"
+	rxversion="6.0"
+	relativepath="..\..\..\..\..\ALL_REPOS\AD_SuiteRepository.rxrep">
+		<codegen
+		classname="AD_SuiteRepository"
+		namespace="ADC_AUTO_Testing.ALL_REPOS"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="d189d0d0-f16a-4e7c-942b-cd6e8e0973a1"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Expand_DC_in_OL.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="c3d8c4de-6545-484a-bdf5-900029a1fd33"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Verify_MinUserCount_AD2
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Verify_MinUserCount_AD2"
+	namespace="ADC_AUTO_Testing.WebPages.Menu1_USERS.Page4_Directories"/>
+	<variables>
+		<var
+		name="var_Min_User2"
+		id="2ef307d8-cfb6-4364-90c9-00a0e85e0ba5">
+			1
+		</var>
+	</variables>
+	<recorditems>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="0be86ed4-7bfd-4d0f-a9cb-66fe29b555f9"
+		action="AttributeEqual">
+			<comment/>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="var_Min_User2"/>
+			</bindings>
+			<info
+			sourcename="ElementTree"
+			id="e2ddb57e-163a-4624-b45a-e5ffb99a2efa">
+				<path>
+					/dom[@domain~'onelogin.com']//div[#'main-content']/div//table//tr[2]/td[@innertext=$var_Min_User_Count]
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				1
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	name="AD_SuiteRepository"
+	id="d1e58214-55e4-40c0-9556-4b696f0f251b"
+	rxversion="6.0"
+	relativepath="..\..\..\ALL_REPOS\AD_SuiteRepository.rxrep">
+		<codegen
+		classname="AD_SuiteRepository"
+		namespace="ADC_AUTO_Testing.ALL_REPOS"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="d189d0d0-f16a-4e7c-942b-cd6e8e0973a1"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Verify_MinUserCount_AD2.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

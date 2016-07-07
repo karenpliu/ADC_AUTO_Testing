@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="01182761-b29a-4440-9e60-5be6e6f978b1"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Verify_NewMaxUserCount_AD2
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Verify_NewMaxUserCount_AD2"
+	namespace="ADC_AUTO_Testing.WebPages.Menu1_USERS.SubMenu4_Directories.Page_ActiveDirectory"/>
+	<variables/>
+	<recorditems>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="956b14bc-2190-444e-a3af-cde69c5ac684"
+		action="AttributeEqual">
+			<comment>
+				Expecting 1 user for AD2
+			</comment>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="e2ddb57e-163a-4624-b45a-e5ffb99a2efa">
+				<element
+				role="unknown"
+				prefcap="tdtag"
+				capabilities="webelement, tdtag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="2"
+				rect="1381,626,159,93"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						attributes component-count
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						td
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain~'onelogin.com']//div[#'main-content']/div//table//tr[2]/td[@innertext=$var_Min_User2]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="3cf24c25-1394-421d-bd54-b80562dd9131">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCADNAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKbJIsa7mz+FOqtdC
+QsAoJXHQDNAE6OHQMM4PrTicDOCfpUFrvAYOCAMYyMVPQAincoYdCM0tNjBEag9QBTqACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAoJCgliABySe1FNlTzIXjzjcpGfTNAMp/2tbb9uJMZxuxx9
+au7l2b9w24znPGK582FyJTGImJHcdD+Nbnk/6J5G7/lns3Y9sZpK5hTnOV7oSO4EgBEcgRvusV4P
+9R+NSLLGzlFkUsOoB5FRxyTkAPCAw+824bfw7/nTIkkDRK0ZXy85fI+ft9eev4UGl2TrLG7bVkVm
+xnAOTihZY3basis2M4BycVBHAVjtRsAaP73Tj5Tn9aI4CsdqNgDR/e6cfKc/rQCcidZY2cosilh1
+APIpj3MKK5MikoCWAYZqC3gkDxeaHzHnklcdxkYGefelKSG1aHySWCsA5I5OCMj3Of1NAuZ22LBm
+iCBzKgQ8BtwwaVpY1QO0ihT0JPBqCcSu0UirIoGcqCu4eh5yPX86asLQ+SyxFwm4YyMrk5z2Ht+N
+A+ZllHDqSM8Ejn2OP6U6orVDHDtZQp3McDoMk1LTKWwUUUUDCiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACimbF/uj8qNi/wB0flQK4+imbF/uj8qNi/3R+VAXH0UzYv8AdH5UbF/u
+j8qAuPopmxf7o/KjYv8AdH5UBcfRTNi/3R+VGxf7o/KgLj6KZsX+6Pyo2L/dH5UBcfRTNi/3R+VG
+xf7o/KgLj6KZsX+6Pyo2L/dH5UBcfRTNi/3R+VGxf7o/KgLj6KZsX+6Pyo2L/dH5UBcfWZ/btr/z
+zm/If41obF/uj8qzdBUGyfIB/eHt7Cpd7pImTd0kO/t21/55zfkP8aP7dtf+ec35D/GtDYv90flR
+sX+6PyotLuL3u5n/ANu2v/POb8h/jR/btr/zzm/If41obF/uj8qNi/3R+VFpdw97uZ/9u2v/ADzm
+/If40f27a/8APOb8h/jWhsX+6Pyo2L/dH5UWl3D3u5n/ANu2v/POb8h/jR/btr/zzm/If41obF/u
+j8qNi/3R+VFpdw97uZ/9u2v/ADzm/If40f27a/8APOb8h/jWhsX+6Pyo2L/dH5UWl3D3u5n/ANu2
+v/POb8h/jR/btr/zzm/If41obF/uj8qNi/3R+VFpdw97uZ/9u2v/ADzm/If40f27a/8APOb8h/jW
+hsX+6Pyo2L/dH5UWl3D3u5n/ANu2v/POb8h/jR/btr/zzm/If41obF/uj8qNi/3R+VFpdw97uZ/9
+u2v/ADzm/If40f27a/8APOb8h/jWhsX+6Pyo2L/dH5UWl3D3u5n/ANu2v/POb8h/jUttq0FzOsKJ
+IGbOCwGOmfWrexf7o/Ks2dR/b9uMDHlnjH+9Sd11E3JdTVopmxf7o/KjYv8AdH5VZpcfRTNi/wB0
+flRsX+6PyoC4+imbF/uj8qNi/wB0flQFx9FM2L/dH5UbF/uj8qAuPopmxf7o/KjYv90flQFx9FM2
+L/dH5UbF/uj8qAuPopmxf7o/KjYv90flQFx9FM2L/dH5UbF/uj8qAuPopmxf7o/KjYv90flQFx9F
+M2L/AHR+VGxf7o/KgLj6KZsX+6PyooC4tFFFMQUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAVm6D/x5P8A9dD/ACFaVZug/wDHk/8A10P8hUv4kS/iRpUUUVRQUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABWbP8A8jBbf9cz/wCzVpVmz/8AIwW3/XM/+zVMuhMuhpUUUVRQ
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABWboP/AB5P/wBdD/IVpVm6D/x5P/10P8hUv4kS/iRpUUUV
+RQUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABWbP/wAjBbf9cz/7NWlWbP8A8jBbf9cz
+/wCzVMuhMuhpUUUVRQUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABWboP/Hk/wD10P8AIVpVm6D/AMeT
+/wDXQ/yFS/iRL+JGlRRRVFBUU8hRcKwDVLUUsPmMDuxxjpQAsL74xk5bvUhyRwcVHDF5Wfmzn2qS
+gBEJMak9SBS0ijaoA7DFLQAUUUUAFFFFABRRRQAUUUUAFFFFABWbP/yMFt/1zP8A7NWlWbP/AMjB
+bf8AXM/+zVMuhMuhpUUUVRQU2V/Lid8Z2qTj1xTqCAwIIBB4INAGF/ad1vzvGM527Rj6Vsed/onn
+7f4N+3PtnFUzpEZlJEjBP7oHI/GtDauzZtG3GMY4xUq5jTjNX5iONJgAXmBb+IbRt/DvSRzszLuQ
+BHzsbdknuOMcZHNLHbiMACSQov3VLcD+v50JAEcHexC52qcYXPpx+FMuzGxXDv5RaLaso4O7JBxn
+n9aIrh38otFtWUcHdkg4zz+tPWFVWJQTiLp+WP60LCqrEoJxF0/LH9aAtIiivBJKqgIQ+dpV8n8R
+24oknm+zPIkahdpKtu5x2OMVJFAIsASOVX7qk8D+v50n2YFGQyPsIIC5GBn04o1C0rCSzmIIHEau
+2eGfAAHvj6UiXLSLH5cYLPkkFuBjg89+ae0O7YfNcOmcMMZOex4x+nahoA2wiRwy5+YHk5657UB7
+wtu7PFubIO5hg9sE1JTYoxEm1SSMk8nJ5OadTKW2oUUUUDCiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACs3Qf+PJ/+uh/kK0qzdB/48n/66H+QqX8SJfxI0qKK
+KooKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigArNn/5GC2/65n/2atKs2f8A5GC2/wCu
+Z/8AZqmXQmXQ0qKKKooKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigArN0H/jyf8A66H+QrSrN0H/AI8n
+/wCuh/kKl/EiX8SNKiiiqKCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKzZ/wDkYLb/
+AK5n/wBmrSrNn/5GC2/65n/2apl0Jl0NKiiiqKCiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigBMt/cP6UZb+4f0p9FIdhmW/uH9KMt/cP6U+igLDMt/cP6UZb+4f0p9FAWGZb+
+4f0oy39w/pT6KAsMy39w/pRlv7h/Sn0UBYZlv7h/SjLf3D+lPooCwzLf3D+lGW/uH9KfRQFhmW/u
+H9KMt/cP6U+igLDMt/cP6UZb+4f0p9FAWGZb+4f0oy39w/pT6KAsMy39w/pWLpN9b2tqyTMQxcno
+TxgVu1D9jtf+faH/AL4FS073RMou90Vf7Xs/+eh/75NH9r2f/PQ/98mrX2O1/wCfaH/vgUfY7X/n
+2h/74FHvBaRV/tez/wCeh/75NH9r2f8Az0P/AHyatfY7X/n2h/74FH2O1/59of8AvgUe8FpFX+17
+P/nof++TR/a9n/z0P/fJq19jtf8An2h/74FH2O1/59of++BR7wWkVf7Xs/8Anof++TR/a9n/AM9D
+/wB8mrX2O1/59of++BR9jtf+faH/AL4FHvBaRV/tez/56H/vk0f2vZ/89D/3yatfY7X/AJ9of++B
+R9jtf+faH/vgUe8FpFX+17P/AJ6H/vk0f2vZ/wDPQ/8AfJq19jtf+faH/vgUfY7X/n2h/wC+BR7w
+WkVf7Xs/+eh/75NH9r2f/PQ/98mrX2O1/wCfaH/vgUfY7X/n2h/74FHvBaRV/tez/wCeh/75NH9r
+2f8Az0P/AHyatfY7X/n2h/74FH2O1/59of8AvgUe8FpFX+17P/nof++TR/a9n/z0P/fJq19jtf8A
+n2h/74FH2O1/59of++BR7wWkVf7Xs/8Anof++TVUXMdzrlu8JLAIR0xzhq1Psdr/AM+0P/fApUto
+I2DJBGrDoVQA0NSe4uWT3HZb+4f0oy39w/pT6KouwzLf3D+lGW/uH9KfRQFhmW/uH9KMt/cP6U+i
+gLDMt/cP6UZb+4f0p9FAWGZb+4f0oy39w/pT6KAsMy39w/pRlv7h/Sn0UBYZlv7h/SjLf3D+lPoo
+CwzLf3D+lGW/uH9KfRQFhmW/uH9KMt/cP6U+igLDMt/cP6UZb+4f0p9FAWGZb+4f0op9FAWCiiig
+YUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH/9k=
+			</helperscreenshot>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				1
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	name="AD_SuiteRepository"
+	id="d1e58214-55e4-40c0-9556-4b696f0f251b"
+	rxversion="6.0"
+	relativepath="..\..\..\..\ALL_REPOS\AD_SuiteRepository.rxrep">
+		<codegen
+		classname="AD_SuiteRepository"
+		namespace="ADC_AUTO_Testing.ALL_REPOS"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="d189d0d0-f16a-4e7c-942b-cd6e8e0973a1"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Verify_NewMaxUserCount_AD2.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

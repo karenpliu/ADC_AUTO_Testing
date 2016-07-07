@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="a3ce95cd-86c1-469c-82e8-4a81fedff199"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Verify_MaxUserCount_AD2
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Verify_MaxUserCount_AD2"
+	namespace="AD_Suite.WebPages.MainPage1_Users.Page4_Directories.Page_ActiveDirectory"/>
+	<variables/>
+	<recorditems/>
+	<repository
+	name="AD_SuiteRepository"
+	id="39fad212-0e97-407d-aea3-01d61702c29c"
+	rxversion="6.0"
+	relativepath="AD_SuiteRepository.rxrep">
+		<codegen
+		classname="AD_SuiteRepository"
+		namespace="AD_Suite.WebPages.MainPage1_Users.Page4_Directories.Page_ActiveDirectory"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="7d0a25d4-5aa8-41d5-b80f-69ed5fb13646"/>
+	</repository>
+	<references/>
+</recordtable>

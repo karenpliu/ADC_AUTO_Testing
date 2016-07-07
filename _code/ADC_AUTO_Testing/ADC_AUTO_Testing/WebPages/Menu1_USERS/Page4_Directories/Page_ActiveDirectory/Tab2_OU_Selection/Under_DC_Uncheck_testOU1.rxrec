@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="13b221fd-d35b-4e9f-b810-e3ec5716da58"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Under_DC_Uncheck_testOU1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Under_DC_Uncheck_testOU1"
+	namespace="ADC_AUTO_Testing.WebPages.Menu1_USERS.Page4_Directories.Page_ActiveDirectory.Tab2_OU_Selection"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Uncheck_TagtestOU1"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="3980ea81-239d-43ed-8f69-8126555913ab"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="AD_SuiteRepository"
+	id="d1e58214-55e4-40c0-9556-4b696f0f251b"
+	rxversion="6.0"
+	relativepath="..\..\..\..\..\ALL_REPOS\AD_SuiteRepository.rxrep">
+		<codegen
+		classname="AD_SuiteRepository"
+		namespace="ADC_AUTO_Testing.ALL_REPOS"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="d189d0d0-f16a-4e7c-942b-cd6e8e0973a1"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Under_DC_Uncheck_testOU1.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

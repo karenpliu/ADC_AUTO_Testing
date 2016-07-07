@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="0cc7be46-932e-4d2c-aba7-7a196d11202c"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Verify_MinUserCount_AD1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Verify_MinUserCount_AD1"
+	namespace="ADC_AUTO_Testing.WebPages.Menu1_USERS.Page4_Directories"/>
+	<variables>
+		<var
+		name="var_Min_User_Count"
+		id="560b3174-2a4a-4ccc-af75-d929d1f7ba28">
+			0
+		</var>
+		<var
+		name="var_Min_User2"
+		id="442b55fe-c087-40a3-b07d-066e56461e00">
+			1
+		</var>
+	</variables>
+	<recorditems>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="3e648adf-99e7-4ad8-a1e2-ac4917758913"
+		action="AttributeEqual">
+			<comment>
+				value 1
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="var_Min_User_Count"/>
+			</bindings>
+			<info
+			sourcename="ElementTree"
+			id="45c9c2a9-4398-4ce1-8672-129ed47cb3dd">
+				<element
+				role="unknown"
+				prefcap="tdtag"
+				capabilities="webelement, tdtag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="2"
+				rect="926,232,159,92"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						attributes component-count
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						td
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain~'onelogin.com']//div[#'main-content']/div/div[2]//table/?/?/tr/td[@innertext='0']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="72f2b5fa-c02b-4fa1-9a70-ff8a77266558">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACJAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigBu8/3G/Sjef7jfpRRTFcN5/uN+lG8/3G/SiigLhvP9xv0o3n+436UUUBcN5/uN
++lG8/wBxv0oooC4bz/cb9KN5/uN+lFFAXDef7jfpRvP9xv0oooC4bz/cb9KN5/uN+lFFAXDef7jf
+pRvP9xv0oooC4bz/AHG/Sjef7jfpRRQFw3n+436Ubz/cb9KKKAuG8/3G/Ssm31DUrlC8NvCyg4z0
+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
+			</helperscreenshot>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				0
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	name="AD_SuiteRepository"
+	id="d1e58214-55e4-40c0-9556-4b696f0f251b"
+	rxversion="6.0"
+	relativepath="..\..\..\ALL_REPOS\AD_SuiteRepository.rxrep">
+		<codegen
+		classname="AD_SuiteRepository"
+		namespace="ADC_AUTO_Testing.ALL_REPOS"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="d189d0d0-f16a-4e7c-942b-cd6e8e0973a1"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Verify_MinUserCount_AD1.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

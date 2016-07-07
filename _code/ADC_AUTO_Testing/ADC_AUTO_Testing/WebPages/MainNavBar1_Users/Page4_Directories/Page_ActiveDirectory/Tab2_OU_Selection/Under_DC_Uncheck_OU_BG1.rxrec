@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="f73ded67-ba5b-4138-86ad-bada29d8269d"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Under_DC_Uncheck_OU_BG1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Under_DC_Uncheck_OU_BG1"
+	namespace="ADC_AUTO_Testing.WebPages.MainNavBar1_Users.Page4_Directories.Page_ActiveDirectory.Tab2_OU_Selection"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Uncheck_OU_BG1"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="d55cb322-6c6d-4280-995a-59c091420921"/>
+		</userrecorditem>
+		<mouseitem
+		enabled="False"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="45880356-7ef2-452c-9bad-db95056d83cf"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="420"
+		sy="588"
+		loc="10;9">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="5c3b78f5-ef67-4569-af48-8fae7ec673b8">
+				<element
+				role="unknown"
+				prefcap="instag"
+				capabilities="webelement, instag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="410,579,18,18"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						iCheck-helper
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						ins
+					</attribute>
+					<dynamicattribute
+					name="style"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain~'onelogin.com']//ul[#'dn-selection']/?/?/ul/li[@innertext='OU_BG1']/div/ins
+				</path>
+			</info>
+			<helperscreenshot
+			guid="ddf34270-8b65-4382-8b25-2075752d7c3c">
+				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
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	name="AD_SuiteRepository"
+	id="d1e58214-55e4-40c0-9556-4b696f0f251b"
+	rxversion="6.0"
+	relativepath="..\..\..\..\..\ALL_REPOS\AD_SuiteRepository.rxrep">
+		<codegen
+		classname="AD_SuiteRepository"
+		namespace="ADC_AUTO_Testing.ALL_REPOS"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="d189d0d0-f16a-4e7c-942b-cd6e8e0973a1"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Under_DC_Uncheck_OU_BG1.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

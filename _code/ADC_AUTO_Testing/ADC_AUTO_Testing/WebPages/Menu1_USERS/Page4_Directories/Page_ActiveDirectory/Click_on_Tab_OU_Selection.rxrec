@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="da751dea-6401-4035-b73d-ac2ace7505e1"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Click_on_Tab_OU_Selection
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Click_on_Tab_OU_Selection"
+	namespace="ADC_AUTO_Testing.WebPages.Menu1_USERS.Page4_Directories.Page_ActiveDirectory"/>
+	<variables/>
+	<recorditems>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="500ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="11e6fd9a-b579-4057-9158-b7d52f4896fa"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="781"
+		sy="255"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="6a306669-99b0-4d8d-ba93-6d10bb43a552">
+				<element
+				role="unknown"
+				prefcap="atag"
+				capabilities="webelement, atag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="683,222,119,40"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						tab
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						ou_selection_link
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://admin.us.onelogin.com/directory/31106/edit/#ou_selection
+					</attribute>
+					<dynamicattribute
+					name="data-toggle"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain~'onelogin.com']//a[#'ou_selection_link']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="9261fff2-f886-4b49-9251-cca7dc6534ad">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACKAZgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKZNKkERklbai9TjNA0m3ZD6Kpf2tY/89//ABxv8KP7Wsf+e/8A443+FLmXcv2N
+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
+P+FT/ZoP+eEf/fAo+zQf88I/++BR7wfuvMg+32v/AD1/8dP+FH2+1/56/wDjp/wqf7NB/wA8I/8A
+vgUfZoP+eEf/AHwKPeD915kH2+1/56/+On/Cmav/AMgyb8P5irX2aD/nhH/3wKjv4GubOSGMqGbG
+CenUGh3sxwcFOLXcr2t7bpaQq0mCEUH5T6VL9vtf+ev/AI6f8Korp1+qhRJa4AwMoD/7LS/YNQ/5
+6Wv/AH7H/wATUXl2N3TpN35vx/4Bd+32v/PX/wAdP+FH2+1/56/+On/CqX2DUP8Anpa/9+x/8TR9
+g1D/AJ6Wv/fsf/E0+aXYn2VL+b8f+AXft9r/AM9f/HT/AIUfb7X/AJ6/+On/AAql9g1D/npa/wDf
+sf8AxNH2DUP+elr/AN+x/wDE0c0uweypfzfj/wAAu/b7X/nr/wCOn/Cj7fa/89f/AB0/4VS+wah/
+z0tf+/Y/+Jo+wah/z0tf+/Y/+Jo5pdg9lS/m/H/gF37fa/8APX/x0/4Ufb7X/nr/AOOn/CqX2DUP
++elr/wB+x/8AE0fYNQ/56Wv/AH7H/wATRzS7B7Kl/N+P/ALv2+1/56/+On/Cj7fa/wDPX/x0/wCF
+UvsGof8APS1/79j/AOJpGsNQAyXtyAQSEjXcR3xlcZ+tF5dgdKklfm/H/gEn2vNz5yvIyfaPKwoY
+/L5W77o77u+M/hVlNSs3GUnDD1AJqHTbcMGkLs6ifzYn2BN4MYA4x6E+nIpl7YCGBXhIMiLDBGXU
+HHzY59chvTtn0q9bHOuXm12LX2+1/wCev/jp/wAKq6Qwe7vmU5BcEfm1M+wah/z0tf8Av2P/AImr
+OmWUtq0zTNGxkIPyfj7e9Qrtq50yVOFOSi9/8/Qu0U6itDjG0U6igBtFOooAbRTqKAG0U6igBtFO
+ooAbRTqKAG0U6igBtFOooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAprKLSeWJklMbHzEKRMwBYncOAe/P8AwL2oMou7mFESURoTIxeJ
+lBI4A5A7nP8AwGrlFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="e2566320-24d9-4d13-97b8-85bdc9e9d612"
+		waittimeout="5000ms"
+		waitaction="Exists">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="b1984622-63de-44c6-bf20-825c40c9e36d">
+				<path>
+					/dom[@domain~'onelogin.com']//div[#'ou_selection']/?/?/legend[@innertext~'^Select\ the\ organizational']
+				</path>
+			</info>
+		</WaitForRecordItem>
+	</recorditems>
+	<repository
+	name="AD_SuiteRepository"
+	id="d1e58214-55e4-40c0-9556-4b696f0f251b"
+	rxversion="6.0"
+	relativepath="..\..\..\..\ALL_REPOS\AD_SuiteRepository.rxrep">
+		<codegen
+		classname="AD_SuiteRepository"
+		namespace="ADC_AUTO_Testing.ALL_REPOS"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="d189d0d0-f16a-4e7c-942b-cd6e8e0973a1"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Click_on_Tab_OU_Selection.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>
