@@ -30,6 +30,7 @@ namespace ADC_AUTO_Testing
             // by starting the test executable directly
             //if (Util.IsRestartRequiredForWinAppAccess)
             //    return Util.RestartWithUiAccess();
+            //testing changes
 
             Keyboard.AbortKey = System.Windows.Forms.Keys.Pause;
             int error = 0;
